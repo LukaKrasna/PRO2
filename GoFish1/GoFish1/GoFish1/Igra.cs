@@ -32,6 +32,21 @@ namespace GoFish1
             //Tukaj se igra začne. Premešaj kup daj vsakemu igralcu 5 kart
             // nato kliči metodo IzločiKomplete
 
+            talon.Mešaj();
+            for(int i = 0; i < 5; i++)
+            // 5 krat
+            {
+                //po eno vsakemu igralcu
+                foreach (Igralec ig in igralci)
+                {
+                    ig.VzemiKarto(talon.Deli());
+                }
+            }
+            foreach (Igralec ig in igralci)
+            {
+                IzločiKomplete(ig); //najprej napisana metoda
+            }
+
         }
         public bool IgrajEnKrog(int izbranaKarta)
         {

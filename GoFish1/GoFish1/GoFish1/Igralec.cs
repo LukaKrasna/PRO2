@@ -58,13 +58,13 @@ namespace GoFish1
         public Kup ImašKakšno(Vrednosti v)
         {
             Kup imam = roka.PullOutValues(v);
-            textNaFormi.Text += Ime + " ima " + imam.Count + " " + v + "\n";
+            textNaFormi.Text += Ime + " ima " + imam.Count + " " + v +Environment.NewLine;
             return imam;
         }
         public void VprašajZaKarto(List<Igralec> i,int mojIndeks, Kup talon, Vrednosti v)
         {
             //i=seznam vseh igralcev, mojIndeks= sem jaz
-            textNaFormi.Text += Ime + " sprašujem, če ima kdo " + v + "\n";
+            textNaFormi.Text += Ime + " sprašujem, če ima kdo " + v + Environment.NewLine;
             int daneKarteSkupaj = 0;
             //vprašaj vse igralce
             for(int k=0; k<i.Count;k++)
@@ -83,7 +83,7 @@ namespace GoFish1
             }//konec pregleda vseh kart drugih igralcev
             if (daneKarteSkupaj==0 && talon.Count > 0)
             {
-                textNaFormi.Text += Ime + " mora potegniti karto iz talona.\n";
+                textNaFormi.Text += Ime + " mora potegniti karto iz talona." + Environment.NewLine;
                 roka.Add(talon.Deli());
             }
         }
