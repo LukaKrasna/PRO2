@@ -95,7 +95,26 @@ namespace GoFish1
                 {
                     roka.Add(talon.Deli());
                 }
+                Vrednosti n = DobiNaključnoVrednost();
+                VprašajZaKarto(i, mojIndeks, talon, n);
             }
+        }
+        public int ŠtevecKart { get { return roka.Count; } }
+        public void VzemiKarto(Karta k)
+        {
+            roka.Add(k);
+        }
+        public IEnumerable<string> Imena()
+        {
+            return roka.ImenaKart();
+        }
+        public Karta Peek(int št)
+        {
+            return roka.Peek(št);
+        }
+        public void SortRoka()
+        {
+            roka.Sort();
         }
     }
 }

@@ -9,3 +9,11 @@ D:\Pro2\GoFish1\GoFish1\obj\Debug\GoFish1.csproj.GenerateResource.cache
 D:\Pro2\GoFish1\GoFish1\obj\Debug\GoFish1.csproj.CoreCompileInputs.cache
 D:\Pro2\GoFish1\GoFish1\obj\Debug\GoFish1.exe
 D:\Pro2\GoFish1\GoFish1\obj\Debug\GoFish1.pdb
+D:\Pro2\GoFish1\GoFish1\GoFish1\obj\Debug\GoFish1.csproj.AssemblyReference.cache
+D:\Pro2\GoFish1\GoFish1\GoFish1\obj\Debug\GoFish1.csproj.SuggestedBindingRedirects.cache
+D:\Pro2\GoFish1\GoFish1\GoFish1\obj\Debug\GoFish1.Form1.resources
+D:\Pro2\GoFish1\GoFish1\GoFish1\obj\Debug\GoFish1.Properties.Resources.resources
+D:\Pro2\GoFish1\GoFish1\GoFish1\obj\Debug\GoFish1.csproj.GenerateResource.cache
+D:\Pro2\GoFish1\GoFish1\GoFish1\obj\Debug\GoFish1.csproj.CoreCompileInputs.cache
+D:\Pro2\GoFish1\GoFish1\GoFish1\obj\Debug\GoFish1.exe
+D:\Pro2\GoFish1\GoFish1\GoFish1\obj\Debug\GoFish1.pdb

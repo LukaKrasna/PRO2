@@ -17,7 +17,7 @@ namespace GoFish1
             InitializeComponent();
         }
 
-       // private Igra igra;
+        private Igra igra;
 
         private void buttonStart_Click(object sender, EventArgs e)
         {
@@ -26,7 +26,7 @@ namespace GoFish1
                 MessageBox.Show("Vnesi svoje ime", "Ne morem še začeti");
                 return;
             }
-           // igra = new Igra(txtIme.Text, new List<string> { "Janez", "Marija" }, txtIgra);
+           igra = new Igra(txtIme.Text, new List<string> { "Janez", "Marija" }, txtIgra);
             buttonStart.Enabled = false;
             txtIme.Enabled = false;
             buttonAsk.Enabled = true;
@@ -36,10 +36,10 @@ namespace GoFish1
         private void UpdateForm()
         {
             lstVRokah.Items.Clear();
-            //foreach (String cardName in igra.KarteIgralca())
-            //    lstVRokah.Items.Add(cardName);
-            //txtKompleti.Text = igra.OpišiKomplete();
-            //txtIgra.Text += igra.OpišiVRokah();
+            foreach (String cardName in igra.KarteIgralca())
+                lstVRokah.Items.Add(cardName);
+            txtKompleti.Text = igra.OpišiKomplete();
+            txtIgra.Text += igra.OpišiVRokah();
             txtIgra.SelectionStart = txtIgra.Text.Length;
             txtIgra.ScrollToCaret();
         }
@@ -52,12 +52,12 @@ namespace GoFish1
                 MessageBox.Show("Prosim izberi karto");
                 return;
             }
-            //if (igra.IgrajEnKrog(lstVRokah.SelectedIndex))
-            //{
-            //    txtIgra.Text += "Zmagovalec je... " + igra.ImeZmagovalca();
-            //    txtKompleti.Text = igra.OpišiKomplete();
-            //    buttonAsk.Enabled = false;
-            //}
+            if (igra.IgrajEnKrog(lstVRokah.SelectedIndex))
+            {
+                txtIgra.Text += "Zmagovalec je... " + igra.ImeZmagovalca();
+                txtKompleti.Text = igra.OpišiKomplete();
+                buttonAsk.Enabled = false;
+            }
             else
                 UpdateForm();
         }
