@@ -1,0 +1,8 @@
+D:\Pro2\Ho(izmišljeno podjetje za mobilno telefonijo)\Ho(izmišljeno podjetje za mobilno telefonijo)\bin\Debug\Ho(izmišljeno podjetje za mobilno telefonijo).exe.config
+D:\Pro2\Ho(izmišljeno podjetje za mobilno telefonijo)\Ho(izmišljeno podjetje za mobilno telefonijo)\bin\Debug\Ho(izmišljeno podjetje za mobilno telefonijo).exe
+D:\Pro2\Ho(izmišljeno podjetje za mobilno telefonijo)\Ho(izmišljeno podjetje za mobilno telefonijo)\bin\Debug\Ho(izmišljeno podjetje za mobilno telefonijo).pdb
+D:\Pro2\Ho(izmišljeno podjetje za mobilno telefonijo)\Ho(izmišljeno podjetje za mobilno telefonijo)\obj\Debug\Ho(izmišljeno podjetje za mobilno telefonijo).csproj.AssemblyReference.cache
+D:\Pro2\Ho(izmišljeno podjetje za mobilno telefonijo)\Ho(izmišljeno podjetje za mobilno telefonijo)\obj\Debug\Ho(izmišljeno podjetje za mobilno telefonijo).csproj.SuggestedBindingRedirects.cache
+D:\Pro2\Ho(izmišljeno podjetje za mobilno telefonijo)\Ho(izmišljeno podjetje za mobilno telefonijo)\obj\Debug\Ho(izmišljeno podjetje za mobilno telefonijo).csproj.CoreCompileInputs.cache
+D:\Pro2\Ho(izmišljeno podjetje za mobilno telefonijo)\Ho(izmišljeno podjetje za mobilno telefonijo)\obj\Debug\Ho(izmišljeno podjetje za mobilno telefonijo).exe
+D:\Pro2\Ho(izmišljeno podjetje za mobilno telefonijo)\Ho(izmišljeno podjetje za mobilno telefonijo)\obj\Debug\Ho(izmišljeno podjetje za mobilno telefonijo).pdb
