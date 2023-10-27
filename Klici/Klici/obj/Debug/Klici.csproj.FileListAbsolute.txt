@@ -1,0 +1,8 @@
+D:\Pro2\Klici\Klici\bin\Debug\Klici.exe.config
+D:\Pro2\Klici\Klici\bin\Debug\Klici.exe
+D:\Pro2\Klici\Klici\bin\Debug\Klici.pdb
+D:\Pro2\Klici\Klici\obj\Debug\Klici.csproj.AssemblyReference.cache
+D:\Pro2\Klici\Klici\obj\Debug\Klici.csproj.SuggestedBindingRedirects.cache
+D:\Pro2\Klici\Klici\obj\Debug\Klici.csproj.CoreCompileInputs.cache
+D:\Pro2\Klici\Klici\obj\Debug\Klici.exe
+D:\Pro2\Klici\Klici\obj\Debug\Klici.pdb
