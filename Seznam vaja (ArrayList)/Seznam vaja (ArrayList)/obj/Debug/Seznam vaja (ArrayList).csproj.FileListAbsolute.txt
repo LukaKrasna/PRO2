@@ -1,0 +1,11 @@
+D:\Pro2\Seznam vaja (ArrayList)\Seznam vaja (ArrayList)\bin\Debug\Seznam vaja (ArrayList).exe.config
+D:\Pro2\Seznam vaja (ArrayList)\Seznam vaja (ArrayList)\bin\Debug\Seznam vaja (ArrayList).exe
+D:\Pro2\Seznam vaja (ArrayList)\Seznam vaja (ArrayList)\bin\Debug\Seznam vaja (ArrayList).pdb
+D:\Pro2\Seznam vaja (ArrayList)\Seznam vaja (ArrayList)\obj\Debug\Seznam vaja (ArrayList).csproj.AssemblyReference.cache
+D:\Pro2\Seznam vaja (ArrayList)\Seznam vaja (ArrayList)\obj\Debug\Seznam vaja (ArrayList).csproj.SuggestedBindingRedirects.cache
+D:\Pro2\Seznam vaja (ArrayList)\Seznam vaja (ArrayList)\obj\Debug\Seznam_vaja__ArrayList_.Form1.resources
+D:\Pro2\Seznam vaja (ArrayList)\Seznam vaja (ArrayList)\obj\Debug\Seznam_vaja__ArrayList_.Properties.Resources.resources
+D:\Pro2\Seznam vaja (ArrayList)\Seznam vaja (ArrayList)\obj\Debug\Seznam vaja (ArrayList).csproj.GenerateResource.cache
+D:\Pro2\Seznam vaja (ArrayList)\Seznam vaja (ArrayList)\obj\Debug\Seznam vaja (ArrayList).csproj.CoreCompileInputs.cache
+D:\Pro2\Seznam vaja (ArrayList)\Seznam vaja (ArrayList)\obj\Debug\Seznam vaja (ArrayList).exe
+D:\Pro2\Seznam vaja (ArrayList)\Seznam vaja (ArrayList)\obj\Debug\Seznam vaja (ArrayList).pdb
