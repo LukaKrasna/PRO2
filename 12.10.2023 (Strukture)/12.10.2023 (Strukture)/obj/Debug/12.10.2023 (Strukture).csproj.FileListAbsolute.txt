@@ -1,0 +1,15 @@
+C:\Users\Dejvi\Desktop\Programiranje2 C#\12.10.2023 (Strukture)\12.10.2023 (Strukture)\bin\Debug\12.10.2023 (Strukture).exe.config
+C:\Users\Dejvi\Desktop\Programiranje2 C#\12.10.2023 (Strukture)\12.10.2023 (Strukture)\bin\Debug\12.10.2023 (Strukture).exe
+C:\Users\Dejvi\Desktop\Programiranje2 C#\12.10.2023 (Strukture)\12.10.2023 (Strukture)\bin\Debug\12.10.2023 (Strukture).pdb
+C:\Users\Dejvi\Desktop\Programiranje2 C#\12.10.2023 (Strukture)\12.10.2023 (Strukture)\obj\Debug\12.10.2023 (Strukture).csproj.AssemblyReference.cache
+C:\Users\Dejvi\Desktop\Programiranje2 C#\12.10.2023 (Strukture)\12.10.2023 (Strukture)\obj\Debug\12.10.2023 (Strukture).csproj.CoreCompileInputs.cache
+C:\Users\Dejvi\Desktop\Programiranje2 C#\12.10.2023 (Strukture)\12.10.2023 (Strukture)\obj\Debug\12.10.2023 (Strukture).exe
+C:\Users\Dejvi\Desktop\Programiranje2 C#\12.10.2023 (Strukture)\12.10.2023 (Strukture)\obj\Debug\12.10.2023 (Strukture).pdb
+D:\Pro2\12.10.2023 (Strukture)\12.10.2023 (Strukture)\bin\Debug\12.10.2023 (Strukture).exe.config
+D:\Pro2\12.10.2023 (Strukture)\12.10.2023 (Strukture)\bin\Debug\12.10.2023 (Strukture).exe
+D:\Pro2\12.10.2023 (Strukture)\12.10.2023 (Strukture)\bin\Debug\12.10.2023 (Strukture).pdb
+D:\Pro2\12.10.2023 (Strukture)\12.10.2023 (Strukture)\obj\Debug\12.10.2023 (Strukture).csproj.AssemblyReference.cache
+D:\Pro2\12.10.2023 (Strukture)\12.10.2023 (Strukture)\obj\Debug\12.10.2023 (Strukture).csproj.SuggestedBindingRedirects.cache
+D:\Pro2\12.10.2023 (Strukture)\12.10.2023 (Strukture)\obj\Debug\12.10.2023 (Strukture).csproj.CoreCompileInputs.cache
+D:\Pro2\12.10.2023 (Strukture)\12.10.2023 (Strukture)\obj\Debug\12.10.2023 (Strukture).exe
+D:\Pro2\12.10.2023 (Strukture)\12.10.2023 (Strukture)\obj\Debug\12.10.2023 (Strukture).pdb

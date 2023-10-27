@@ -1,0 +1,7 @@
+C:\Users\Dejvi\Desktop\Programiranje2 C#\12.10.2023 (Mutanti)\12.10.2023 (Mutanti)\obj\Debug\12.10.2023 (Mutanti).csproj.AssemblyReference.cache
+C:\Users\Dejvi\Desktop\Programiranje2 C#\12.10.2023 (Mutanti)\12.10.2023 (Mutanti)\obj\Debug\12.10.2023 (Mutanti).csproj.CoreCompileInputs.cache
+C:\Users\Dejvi\Desktop\Programiranje2 C#\12.10.2023 (Mutanti)\12.10.2023 (Mutanti)\bin\Debug\12.10.2023 (Mutanti).exe.config
+C:\Users\Dejvi\Desktop\Programiranje2 C#\12.10.2023 (Mutanti)\12.10.2023 (Mutanti)\bin\Debug\12.10.2023 (Mutanti).exe
+C:\Users\Dejvi\Desktop\Programiranje2 C#\12.10.2023 (Mutanti)\12.10.2023 (Mutanti)\bin\Debug\12.10.2023 (Mutanti).pdb
+C:\Users\Dejvi\Desktop\Programiranje2 C#\12.10.2023 (Mutanti)\12.10.2023 (Mutanti)\obj\Debug\12.10.2023 (Mutanti).exe
+C:\Users\Dejvi\Desktop\Programiranje2 C#\12.10.2023 (Mutanti)\12.10.2023 (Mutanti)\obj\Debug\12.10.2023 (Mutanti).pdb

@@ -1,0 +1,7 @@
+C:\Users\Dejvi\Desktop\Programiranje2 C#\11.10.2023 (Ho)\11.10.2023 (Ho)\bin\Debug\11.10.2023 (Ho).exe.config
+C:\Users\Dejvi\Desktop\Programiranje2 C#\11.10.2023 (Ho)\11.10.2023 (Ho)\bin\Debug\11.10.2023 (Ho).exe
+C:\Users\Dejvi\Desktop\Programiranje2 C#\11.10.2023 (Ho)\11.10.2023 (Ho)\bin\Debug\11.10.2023 (Ho).pdb
+C:\Users\Dejvi\Desktop\Programiranje2 C#\11.10.2023 (Ho)\11.10.2023 (Ho)\obj\Debug\11.10.2023 (Ho).csproj.AssemblyReference.cache
+C:\Users\Dejvi\Desktop\Programiranje2 C#\11.10.2023 (Ho)\11.10.2023 (Ho)\obj\Debug\11.10.2023 (Ho).csproj.CoreCompileInputs.cache
+C:\Users\Dejvi\Desktop\Programiranje2 C#\11.10.2023 (Ho)\11.10.2023 (Ho)\obj\Debug\11.10.2023 (Ho).exe
+C:\Users\Dejvi\Desktop\Programiranje2 C#\11.10.2023 (Ho)\11.10.2023 (Ho)\obj\Debug\11.10.2023 (Ho).pdb
