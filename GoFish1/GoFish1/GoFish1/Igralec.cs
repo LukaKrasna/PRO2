@@ -23,7 +23,7 @@ namespace GoFish1
             this.r = r;
             textNaFormi = t;
             roka = new Kup(new Karta[] { });
-            textNaFormi.Text += Ime + " se je pridružil igri\n";
+            textNaFormi.Text += Ime + " se je pridružil igri. \n";
         }
         //igralec izloči komplete
         public IEnumerable<Vrednosti> IzločiKomplete()

@@ -55,17 +55,52 @@ namespace GoFish1
             //takoj, ko dobimo morebitne karte od igralcev, igra preveri, če je kaj
             // kompletov, komplete odstrani, po potrebi dodeli igralcu nove karte
             //če zmanjka kart je igre konec
-
+            Vrednosti v = igralci[0].Peek(izbranaKarta).Vrednost;
+            for (int i = 1; i < igralci.Count; i++)
+            {
+                if (i == 0)
+                //igra uporabnik
+                igralci[0].VprašajZaKarto(igralci, i, talon, v);
+            else
+                //igra računalnika, vrednost, ki jo išče je naključna
+                igralci[i].VprašajZaKarto(igralci, i, talon);
+                if (IzločiKomplete(igralci[i]))
+                {
+                    textNaFormi.Text += igralci[i].Ime + " je potegnil novo karto " + Environment.NewLine;
+                    int štKart = 1; while (štKart <= 5 && talon.Count > 0)
+                    {
+                        igralci[i].VzemiKarto(talon.Deli()); štKart++;
+                    }
+                }
+                igralci[0].SortRoka();
+                if(talon.Count == 0)
+                {
+                    textNaFormi.Text = "Ni več kart. Konec igre!";
+                    return true;
+                }
+            }
+                return true;
         }
         public bool IzločiKomplete(Igralec i)
         {
             //izloči komplete za posameznega igralca in vrne vrednost true
             // če je igralec ostal brez kart
-
+            IEnumerable<Vrednosti> izločeni = i.IzločiKomplete();
+            foreach (Vrednosti v in izločeni) { kompleti.Add(v, i); }
+            if (i.ŠtevecKart == 0)
+                return true;
+            else return false;
         }
         public string OpišiKomplete()
         {
             //vrni niz, v katerem so imena igralcev in kompleti kart
+            string kdoImaKatereKomplete = "";
+            foreach (Vrednosti v in kompleti.Keys)
+            {
+                //Karta.Množina je metoda v razredu Karta, samo opis v množini
+                kdoImaKatereKomplete += kompleti[v].Ime + " ima komplet " + v + Environment.NewLine;
+            }
+            return kdoImaKatereKomplete;
         }
         public string ImeZmagovalca()
         {
@@ -110,11 +145,26 @@ namespace GoFish1
         public IEnumerable<string> KarteIgralca()
         {
             //vrni seznam imen igralcev
+            return igralci[0].Imena();
         }
         public string OpišiVRokah()
         {
             //izpiši imena igralcev in število kart v rokah
             // izpiši tudi koliko kart je v talonu, opis vrni kot spremenljivko tipa string
+            string description = "";
+            for (int i = 0; i < igralci.Count; i++)
+            {
+                description += igralci[i].Ime + " ima " + igralci[i].ŠtevecKart;
+                if (igralci[i].ŠtevecKart == 1) description += " karto." + Environment.NewLine;
+                else
+                    if (igralci[i].ŠtevecKart == 2) description += " karti." + Environment.NewLine;
+                else if (igralci[i].ŠtevecKart == 3 || igralci[i].ŠtevecKart == 4) description += " karte." + Environment.NewLine;
+                else description += " kart." + Environment.NewLine;
+            }
+
+
+            description += "V talonu " + talon.Count + " ostalih kart.";
+            return description;
         }
 
     }
