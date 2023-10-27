@@ -1,0 +1,11 @@
+D:\Pro2\Frektali\Frektali\bin\Debug\Frektali.exe.config
+D:\Pro2\Frektali\Frektali\bin\Debug\Frektali.exe
+D:\Pro2\Frektali\Frektali\bin\Debug\Frektali.pdb
+D:\Pro2\Frektali\Frektali\obj\Debug\Frektali.csproj.AssemblyReference.cache
+D:\Pro2\Frektali\Frektali\obj\Debug\Frektali.csproj.SuggestedBindingRedirects.cache
+D:\Pro2\Frektali\Frektali\obj\Debug\Frektali.Form1.resources
+D:\Pro2\Frektali\Frektali\obj\Debug\Frektali.Properties.Resources.resources
+D:\Pro2\Frektali\Frektali\obj\Debug\Frektali.csproj.GenerateResource.cache
+D:\Pro2\Frektali\Frektali\obj\Debug\Frektali.csproj.CoreCompileInputs.cache
+D:\Pro2\Frektali\Frektali\obj\Debug\Frektali.exe
+D:\Pro2\Frektali\Frektali\obj\Debug\Frektali.pdb

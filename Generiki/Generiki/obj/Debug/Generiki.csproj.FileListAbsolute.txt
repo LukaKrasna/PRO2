@@ -1,0 +1,8 @@
+D:\Pro2\Generiki\Generiki\bin\Debug\Generiki.exe.config
+D:\Pro2\Generiki\Generiki\bin\Debug\Generiki.exe
+D:\Pro2\Generiki\Generiki\bin\Debug\Generiki.pdb
+D:\Pro2\Generiki\Generiki\obj\Debug\Generiki.csproj.AssemblyReference.cache
+D:\Pro2\Generiki\Generiki\obj\Debug\Generiki.csproj.SuggestedBindingRedirects.cache
+D:\Pro2\Generiki\Generiki\obj\Debug\Generiki.csproj.CoreCompileInputs.cache
+D:\Pro2\Generiki\Generiki\obj\Debug\Generiki.exe
+D:\Pro2\Generiki\Generiki\obj\Debug\Generiki.pdb

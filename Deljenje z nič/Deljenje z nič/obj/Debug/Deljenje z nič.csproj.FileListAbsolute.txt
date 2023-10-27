@@ -1,0 +1,11 @@
+D:\Pro2\Deljenje z nič\Deljenje z nič\bin\Debug\Deljenje z nič.exe.config
+D:\Pro2\Deljenje z nič\Deljenje z nič\bin\Debug\Deljenje z nič.exe
+D:\Pro2\Deljenje z nič\Deljenje z nič\bin\Debug\Deljenje z nič.pdb
+D:\Pro2\Deljenje z nič\Deljenje z nič\obj\Debug\Deljenje z nič.csproj.AssemblyReference.cache
+D:\Pro2\Deljenje z nič\Deljenje z nič\obj\Debug\Deljenje z nič.csproj.SuggestedBindingRedirects.cache
+D:\Pro2\Deljenje z nič\Deljenje z nič\obj\Debug\Deljenje_z_nič.Form1.resources
+D:\Pro2\Deljenje z nič\Deljenje z nič\obj\Debug\Deljenje_z_nič.Properties.Resources.resources
+D:\Pro2\Deljenje z nič\Deljenje z nič\obj\Debug\Deljenje z nič.csproj.GenerateResource.cache
+D:\Pro2\Deljenje z nič\Deljenje z nič\obj\Debug\Deljenje z nič.csproj.CoreCompileInputs.cache
+D:\Pro2\Deljenje z nič\Deljenje z nič\obj\Debug\Deljenje z nič.exe
+D:\Pro2\Deljenje z nič\Deljenje z nič\obj\Debug\Deljenje z nič.pdb

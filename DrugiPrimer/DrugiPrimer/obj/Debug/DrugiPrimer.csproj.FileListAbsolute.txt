@@ -1,0 +1,8 @@
+D:\Pro2\DrugiPrimer\DrugiPrimer\bin\Debug\DrugiPrimer.exe.config
+D:\Pro2\DrugiPrimer\DrugiPrimer\bin\Debug\DrugiPrimer.exe
+D:\Pro2\DrugiPrimer\DrugiPrimer\bin\Debug\DrugiPrimer.pdb
+D:\Pro2\DrugiPrimer\DrugiPrimer\obj\Debug\DrugiPrimer.csproj.AssemblyReference.cache
+D:\Pro2\DrugiPrimer\DrugiPrimer\obj\Debug\DrugiPrimer.csproj.SuggestedBindingRedirects.cache
+D:\Pro2\DrugiPrimer\DrugiPrimer\obj\Debug\DrugiPrimer.csproj.CoreCompileInputs.cache
+D:\Pro2\DrugiPrimer\DrugiPrimer\obj\Debug\DrugiPrimer.exe
+D:\Pro2\DrugiPrimer\DrugiPrimer\obj\Debug\DrugiPrimer.pdb
