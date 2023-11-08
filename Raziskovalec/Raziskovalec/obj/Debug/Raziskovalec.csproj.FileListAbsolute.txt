@@ -1,0 +1,11 @@
+D:\Pro2\Raziskovalec\Raziskovalec\bin\Debug\Raziskovalec.exe.config
+D:\Pro2\Raziskovalec\Raziskovalec\bin\Debug\Raziskovalec.exe
+D:\Pro2\Raziskovalec\Raziskovalec\bin\Debug\Raziskovalec.pdb
+D:\Pro2\Raziskovalec\Raziskovalec\obj\Debug\Raziskovalec.csproj.AssemblyReference.cache
+D:\Pro2\Raziskovalec\Raziskovalec\obj\Debug\Raziskovalec.csproj.SuggestedBindingRedirects.cache
+D:\Pro2\Raziskovalec\Raziskovalec\obj\Debug\Raziskovalec.Form1.resources
+D:\Pro2\Raziskovalec\Raziskovalec\obj\Debug\Raziskovalec.Properties.Resources.resources
+D:\Pro2\Raziskovalec\Raziskovalec\obj\Debug\Raziskovalec.csproj.GenerateResource.cache
+D:\Pro2\Raziskovalec\Raziskovalec\obj\Debug\Raziskovalec.csproj.CoreCompileInputs.cache
+D:\Pro2\Raziskovalec\Raziskovalec\obj\Debug\Raziskovalec.exe
+D:\Pro2\Raziskovalec\Raziskovalec\obj\Debug\Raziskovalec.pdb
