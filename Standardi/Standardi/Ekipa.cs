@@ -13,11 +13,11 @@ namespace Standardi
             //to je le konstruktor
         }
         private string ime;
-        private int štTekem;
-        int štZmag;
-        int štNeodločenih;
-        int daniGoli;
-        int prejetiGoli;
+        public int štTekem;
+        public int štZmag;
+        public int štNeodločenih;
+        public int daniGoli;
+        public int prejetiGoli;
 
         public string Ime { get => ime; set => ime = value; }
 
