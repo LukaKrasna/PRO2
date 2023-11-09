@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<NogometnaLiga xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <liga>
+    <Ekipa>
+      <Ime>Italija     </Ime>
+    </Ekipa>
+    <Ekipa>
+      <Ime>Španija     </Ime>
+    </Ekipa>
+    <Ekipa>
+      <Ime>Slovenija   </Ime>
+    </Ekipa>
+    <Ekipa>
+      <Ime>Anglija     </Ime>
+    </Ekipa>
+    <Ekipa>
+      <Ime>Nemčija     </Ime>
+    </Ekipa>
+    <Ekipa>
+      <Ime>Belgija     </Ime>
+    </Ekipa>
+    <Ekipa>
+      <Ime>San Marino  </Ime>
+    </Ekipa>
+    <Ekipa>
+      <Ime>Portugalska </Ime>
+    </Ekipa>
+    <Ekipa>
+      <Ime>Švedska     </Ime>
+    </Ekipa>
+    <Ekipa>
+      <Ime>Islandija   </Ime>
+    </Ekipa>
+  </liga>
+</NogometnaLiga>

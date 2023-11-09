@@ -1,0 +1,8 @@
+D:\Pro2\Standardi\Standardi\bin\Debug\Standardi.exe.config
+D:\Pro2\Standardi\Standardi\bin\Debug\Standardi.exe
+D:\Pro2\Standardi\Standardi\bin\Debug\Standardi.pdb
+D:\Pro2\Standardi\Standardi\obj\Debug\Standardi.csproj.AssemblyReference.cache
+D:\Pro2\Standardi\Standardi\obj\Debug\Standardi.csproj.SuggestedBindingRedirects.cache
+D:\Pro2\Standardi\Standardi\obj\Debug\Standardi.csproj.CoreCompileInputs.cache
+D:\Pro2\Standardi\Standardi\obj\Debug\Standardi.exe
+D:\Pro2\Standardi\Standardi\obj\Debug\Standardi.pdb
