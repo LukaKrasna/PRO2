@@ -12,11 +12,19 @@ namespace Standardi
     {
         static void Main(string[] args)
         {
-            FileStream fs = new FileStream("liga.xml", FileMode.Create);
+            //FileStream fs = new FileStream("liga.xml", FileMode.Create);
+            //XmlSerializer s = new XmlSerializer(typeof(NogometnaLiga));
+            //NogometnaLiga n=new NogometnaLiga();
+            //s.Serialize(fs, n);
+            //fs.Close();
+            FileStream fs = new FileStream("d:\\pro2\\liga.xml", FileMode.Open);
             XmlSerializer s = new XmlSerializer(typeof(NogometnaLiga));
-            NogometnaLiga n=new NogometnaLiga();
-            s.Serialize(fs, n);
-            fs.Close();
+            NogometnaLiga x = null;
+            x=(NogometnaLiga)s.Deserialize(fs);
+            foreach(Ekipa a in x.liga)
+            {
+                Console.WriteLine(  a.Ime);
+            }
             Console.WriteLine("Konec");
             Console.ReadLine();
         }
