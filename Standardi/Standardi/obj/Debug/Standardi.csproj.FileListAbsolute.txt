@@ -6,3 +6,6 @@ D:\Pro2\Standardi\Standardi\obj\Debug\Standardi.csproj.SuggestedBindingRedirects
 D:\Pro2\Standardi\Standardi\obj\Debug\Standardi.csproj.CoreCompileInputs.cache
 D:\Pro2\Standardi\Standardi\obj\Debug\Standardi.exe
 D:\Pro2\Standardi\Standardi\obj\Debug\Standardi.pdb
+D:\Pro2\Standardi\Standardi\bin\Debug\Newtonsoft.Json.dll
+D:\Pro2\Standardi\Standardi\bin\Debug\Newtonsoft.Json.xml
+D:\Pro2\Standardi\Standardi\obj\Debug\Standardi.csproj.CopyComplete
