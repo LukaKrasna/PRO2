@@ -1,0 +1,8 @@
+D:\Pro2\MeteoXML\MeteoXML\obj\Debug\MeteoXML.csproj.AssemblyReference.cache
+D:\Pro2\MeteoXML\MeteoXML\obj\Debug\MeteoXML.csproj.SuggestedBindingRedirects.cache
+D:\Pro2\MeteoXML\MeteoXML\obj\Debug\MeteoXML.csproj.CoreCompileInputs.cache
+D:\Pro2\MeteoXML\MeteoXML\bin\Debug\MeteoXML.exe.config
+D:\Pro2\MeteoXML\MeteoXML\bin\Debug\MeteoXML.exe
+D:\Pro2\MeteoXML\MeteoXML\bin\Debug\MeteoXML.pdb
+D:\Pro2\MeteoXML\MeteoXML\obj\Debug\MeteoXML.exe
+D:\Pro2\MeteoXML\MeteoXML\obj\Debug\MeteoXML.pdb

@@ -1,0 +1,8 @@
+D:\Pro2\vajaXMLdeserializacija\vajaXMLdeserializacija\bin\Debug\vajaXMLdeserializacija.exe.config
+D:\Pro2\vajaXMLdeserializacija\vajaXMLdeserializacija\bin\Debug\vajaXMLdeserializacija.exe
+D:\Pro2\vajaXMLdeserializacija\vajaXMLdeserializacija\bin\Debug\vajaXMLdeserializacija.pdb
+D:\Pro2\vajaXMLdeserializacija\vajaXMLdeserializacija\obj\Debug\vajaXMLdeserializacija.csproj.AssemblyReference.cache
+D:\Pro2\vajaXMLdeserializacija\vajaXMLdeserializacija\obj\Debug\vajaXMLdeserializacija.csproj.SuggestedBindingRedirects.cache
+D:\Pro2\vajaXMLdeserializacija\vajaXMLdeserializacija\obj\Debug\vajaXMLdeserializacija.csproj.CoreCompileInputs.cache
+D:\Pro2\vajaXMLdeserializacija\vajaXMLdeserializacija\obj\Debug\vajaXMLdeserializacija.exe
+D:\Pro2\vajaXMLdeserializacija\vajaXMLdeserializacija\obj\Debug\vajaXMLdeserializacija.pdb
