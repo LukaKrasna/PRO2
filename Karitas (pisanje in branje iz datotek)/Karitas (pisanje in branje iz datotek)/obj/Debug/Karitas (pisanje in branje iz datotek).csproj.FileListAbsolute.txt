@@ -1,0 +1,15 @@
+D:\Pro2\Karitas (pisanje in branje iz datotek)\Karitas (pisanje in branje iz datotek)\bin\Debug\Karitas (pisanje in branje iz datotek).exe.config
+D:\Pro2\Karitas (pisanje in branje iz datotek)\Karitas (pisanje in branje iz datotek)\bin\Debug\Karitas (pisanje in branje iz datotek).exe
+D:\Pro2\Karitas (pisanje in branje iz datotek)\Karitas (pisanje in branje iz datotek)\bin\Debug\Karitas (pisanje in branje iz datotek).pdb
+D:\Pro2\Karitas (pisanje in branje iz datotek)\Karitas (pisanje in branje iz datotek)\obj\Debug\Karitas (pisanje in branje iz datotek).csproj.AssemblyReference.cache
+D:\Pro2\Karitas (pisanje in branje iz datotek)\Karitas (pisanje in branje iz datotek)\obj\Debug\Karitas (pisanje in branje iz datotek).csproj.SuggestedBindingRedirects.cache
+D:\Pro2\Karitas (pisanje in branje iz datotek)\Karitas (pisanje in branje iz datotek)\obj\Debug\Karitas__pisanje_in_branje_iz_datotek_.Form1.resources
+D:\Pro2\Karitas (pisanje in branje iz datotek)\Karitas (pisanje in branje iz datotek)\obj\Debug\Karitas__pisanje_in_branje_iz_datotek_.Properties.Resources.resources
+D:\Pro2\Karitas (pisanje in branje iz datotek)\Karitas (pisanje in branje iz datotek)\obj\Debug\Karitas (pisanje in branje iz datotek).csproj.GenerateResource.cache
+D:\Pro2\Karitas (pisanje in branje iz datotek)\Karitas (pisanje in branje iz datotek)\obj\Debug\Karitas (pisanje in branje iz datotek).csproj.CoreCompileInputs.cache
+D:\Pro2\Karitas (pisanje in branje iz datotek)\Karitas (pisanje in branje iz datotek)\obj\Debug\Karitas (pisanje in branje iz datotek).exe
+D:\Pro2\Karitas (pisanje in branje iz datotek)\Karitas (pisanje in branje iz datotek)\obj\Debug\Karitas (pisanje in branje iz datotek).pdb
+D:\Pro2\Karitas (pisanje in branje iz datotek)\Karitas (pisanje in branje iz datotek)\obj\Debug\Karitas__pisanje_in_branje_iz_datotek_.Resource1.resources
+D:\Pro2\Karitas (pisanje in branje iz datotek)\Karitas (pisanje in branje iz datotek)\obj\Debug\Karitas__pisanje_in_branje_iz_datotek_.Glavno_okno.resources
+D:\Pro2\Karitas (pisanje in branje iz datotek)\Karitas (pisanje in branje iz datotek)\bin\Debug\Resources\Posnetek zaslona_20230120_125725.png
+D:\Pro2\Karitas (pisanje in branje iz datotek)\Karitas (pisanje in branje iz datotek)\obj\Debug\Karitas__pisanje_in_branje_iz_datotek_.Pregledi.resources
