@@ -14,7 +14,7 @@ namespace Karitas__pisanje_in_branje_iz_datotek_
 {
     public partial class Form1 : Form
     {
-        string pot = Resource1.Pot;
+        string pot = Resource1.pot;
         public Form1()
         {
             InitializeComponent();

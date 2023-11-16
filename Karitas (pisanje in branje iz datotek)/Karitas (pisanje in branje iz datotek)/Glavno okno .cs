@@ -30,5 +30,17 @@ namespace Karitas__pisanje_in_branje_iz_datotek_
             a.MdiParent = this;
             a.Show();
         }
+
+        private void Glavno_okno_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void zaščitaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Zaščita a = new Zaščita();
+            a.MdiParent = this;
+            a.Show();
+        }
     }
 }

@@ -79,6 +79,7 @@
             this.zaščitaToolStripMenuItem.Name = "zaščitaToolStripMenuItem";
             this.zaščitaToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
             this.zaščitaToolStripMenuItem.Text = "Zaščita";
+            this.zaščitaToolStripMenuItem.Click += new System.EventHandler(this.zaščitaToolStripMenuItem_Click);
             // 
             // backUpToolStripMenuItem
             // 
@@ -108,6 +109,7 @@
             this.Name = "Glavno_okno";
             this.Text = "Glavno okno";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.Glavno_okno_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

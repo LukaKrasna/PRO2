@@ -61,11 +61,11 @@ namespace Karitas__pisanje_in_branje_iz_datotek_ {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to c:\\Darovi.dat.
+        ///   Looks up a localized string similar to d:\\Darovi.dat.
         /// </summary>
-        internal static string Pot {
+        internal static string pot {
             get {
-                return ResourceManager.GetString("Pot", resourceCulture);
+                return ResourceManager.GetString("pot", resourceCulture);
             }
         }
     }
