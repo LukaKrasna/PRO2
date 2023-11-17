@@ -33,7 +33,7 @@
             // 
             // btnZaščita
             // 
-            this.btnZaščita.Location = new System.Drawing.Point(231, 97);
+            this.btnZaščita.Location = new System.Drawing.Point(143, 61);
             this.btnZaščita.Name = "btnZaščita";
             this.btnZaščita.Size = new System.Drawing.Size(75, 23);
             this.btnZaščita.TabIndex = 0;
@@ -45,7 +45,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(601, 224);
+            this.ClientSize = new System.Drawing.Size(420, 145);
             this.Controls.Add(this.btnZaščita);
             this.Name = "Zaščita";
             this.Text = "Zaščita";

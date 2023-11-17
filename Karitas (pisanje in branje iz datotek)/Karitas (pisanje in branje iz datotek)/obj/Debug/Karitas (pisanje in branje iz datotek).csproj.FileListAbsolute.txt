@@ -13,3 +13,10 @@ D:\Pro2\Karitas (pisanje in branje iz datotek)\Karitas (pisanje in branje iz dat
 D:\Pro2\Karitas (pisanje in branje iz datotek)\Karitas (pisanje in branje iz datotek)\obj\Debug\Karitas__pisanje_in_branje_iz_datotek_.Glavno_okno.resources
 D:\Pro2\Karitas (pisanje in branje iz datotek)\Karitas (pisanje in branje iz datotek)\bin\Debug\Resources\Posnetek zaslona_20230120_125725.png
 D:\Pro2\Karitas (pisanje in branje iz datotek)\Karitas (pisanje in branje iz datotek)\obj\Debug\Karitas__pisanje_in_branje_iz_datotek_.Pregledi.resources
+D:\Pro2\Karitas (pisanje in branje iz datotek)\Karitas (pisanje in branje iz datotek)\obj\Debug\Karitas__pisanje_in_branje_iz_datotek_.Zaščita.resources
+D:\Pro2\Karitas (pisanje in branje iz datotek)\Karitas (pisanje in branje iz datotek)\obj\Debug\Karitas__pisanje_in_branje_iz_datotek_.Obnova.resources
+D:\Pro2\Karitas (pisanje in branje iz datotek)\Karitas (pisanje in branje iz datotek)\obj\Debug\Karitas__pisanje_in_branje_iz_datotek_.Tiskanje.resources
+D:\Pro2\Karitas (pisanje in branje iz datotek)\Karitas (pisanje in branje iz datotek)\bin\Debug\Karitas (pisanje in branje iz datotek).exe.manifest
+D:\Pro2\Karitas (pisanje in branje iz datotek)\Karitas (pisanje in branje iz datotek)\bin\Debug\Karitas (pisanje in branje iz datotek).application
+D:\Pro2\Karitas (pisanje in branje iz datotek)\Karitas (pisanje in branje iz datotek)\obj\Debug\Karitas (pisanje in branje iz datotek).exe.manifest
+D:\Pro2\Karitas (pisanje in branje iz datotek)\Karitas (pisanje in branje iz datotek)\obj\Debug\Karitas (pisanje in branje iz datotek).application

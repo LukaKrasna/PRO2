@@ -42,5 +42,19 @@ namespace Karitas__pisanje_in_branje_iz_datotek_
             a.MdiParent = this;
             a.Show();
         }
+
+        private void restoreToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Obnova a =new Obnova();
+            a.MdiParent = this;
+            a.Show();
+        }
+
+        private void tiskanjeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Tiskanje a = new Tiskanje();
+            a.MdiParent = this;
+            a.Show();
+        }
     }
 }

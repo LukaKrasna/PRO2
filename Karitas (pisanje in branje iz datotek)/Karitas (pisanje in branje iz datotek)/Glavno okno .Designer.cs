@@ -70,6 +70,7 @@
             this.tiskanjeToolStripMenuItem.Name = "tiskanjeToolStripMenuItem";
             this.tiskanjeToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
             this.tiskanjeToolStripMenuItem.Text = "Tiskanje";
+            this.tiskanjeToolStripMenuItem.Click += new System.EventHandler(this.tiskanjeToolStripMenuItem_Click);
             // 
             // zaščitaToolStripMenuItem
             // 
@@ -92,6 +93,7 @@
             this.restoreToolStripMenuItem.Name = "restoreToolStripMenuItem";
             this.restoreToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.restoreToolStripMenuItem.Text = "Restore";
+            this.restoreToolStripMenuItem.Click += new System.EventHandler(this.restoreToolStripMenuItem_Click);
             // 
             // Glavno_okno
             // 

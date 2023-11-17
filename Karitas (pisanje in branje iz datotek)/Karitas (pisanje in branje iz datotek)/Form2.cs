@@ -134,5 +134,10 @@ namespace Karitas__pisanje_in_branje_iz_datotek_
         {
 
         }
+
+        private void toolStrip1_ItemClicked_1(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
     }
 }
