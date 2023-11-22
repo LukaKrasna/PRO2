@@ -1,0 +1,16 @@
+D:\Pro2\Nepovezan (Baze podatkov)\Nepovezan (Baze podatkov)\bin\Debug\Nepovezan (Baze podatkov).exe.config
+D:\Pro2\Nepovezan (Baze podatkov)\Nepovezan (Baze podatkov)\bin\Debug\Nepovezan (Baze podatkov).exe
+D:\Pro2\Nepovezan (Baze podatkov)\Nepovezan (Baze podatkov)\bin\Debug\Nepovezan (Baze podatkov).pdb
+D:\Pro2\Nepovezan (Baze podatkov)\Nepovezan (Baze podatkov)\obj\Debug\Nepovezan (Baze podatkov).csproj.AssemblyReference.cache
+D:\Pro2\Nepovezan (Baze podatkov)\Nepovezan (Baze podatkov)\obj\Debug\Nepovezan (Baze podatkov).csproj.SuggestedBindingRedirects.cache
+D:\Pro2\Nepovezan (Baze podatkov)\Nepovezan (Baze podatkov)\obj\Debug\MainWindow.g.cs
+D:\Pro2\Nepovezan (Baze podatkov)\Nepovezan (Baze podatkov)\obj\Debug\App.g.cs
+D:\Pro2\Nepovezan (Baze podatkov)\Nepovezan (Baze podatkov)\obj\Debug\Nepovezan (Baze podatkov)_MarkupCompile.cache
+D:\Pro2\Nepovezan (Baze podatkov)\Nepovezan (Baze podatkov)\obj\Debug\Nepovezan (Baze podatkov)_MarkupCompile.lref
+D:\Pro2\Nepovezan (Baze podatkov)\Nepovezan (Baze podatkov)\obj\Debug\MainWindow.baml
+D:\Pro2\Nepovezan (Baze podatkov)\Nepovezan (Baze podatkov)\obj\Debug\Nepovezan (Baze podatkov).g.resources
+D:\Pro2\Nepovezan (Baze podatkov)\Nepovezan (Baze podatkov)\obj\Debug\Nepovezan__Baze_podatkov_.Properties.Resources.resources
+D:\Pro2\Nepovezan (Baze podatkov)\Nepovezan (Baze podatkov)\obj\Debug\Nepovezan (Baze podatkov).csproj.GenerateResource.cache
+D:\Pro2\Nepovezan (Baze podatkov)\Nepovezan (Baze podatkov)\obj\Debug\Nepovezan (Baze podatkov).csproj.CoreCompileInputs.cache
+D:\Pro2\Nepovezan (Baze podatkov)\Nepovezan (Baze podatkov)\obj\Debug\Nepovezan (Baze podatkov).exe
+D:\Pro2\Nepovezan (Baze podatkov)\Nepovezan (Baze podatkov)\obj\Debug\Nepovezan (Baze podatkov).pdb

@@ -1,0 +1,11 @@
+D:\Pro2\Vaja okenska aplikacija za baze podatkov\Vaja okenska aplikacija za baze podatkov\bin\Debug\Vaja okenska aplikacija za baze podatkov.exe.config
+D:\Pro2\Vaja okenska aplikacija za baze podatkov\Vaja okenska aplikacija za baze podatkov\bin\Debug\Vaja okenska aplikacija za baze podatkov.exe
+D:\Pro2\Vaja okenska aplikacija za baze podatkov\Vaja okenska aplikacija za baze podatkov\bin\Debug\Vaja okenska aplikacija za baze podatkov.pdb
+D:\Pro2\Vaja okenska aplikacija za baze podatkov\Vaja okenska aplikacija za baze podatkov\obj\Debug\Vaja okenska aplikacija za baze podatkov.csproj.AssemblyReference.cache
+D:\Pro2\Vaja okenska aplikacija za baze podatkov\Vaja okenska aplikacija za baze podatkov\obj\Debug\Vaja okenska aplikacija za baze podatkov.csproj.SuggestedBindingRedirects.cache
+D:\Pro2\Vaja okenska aplikacija za baze podatkov\Vaja okenska aplikacija za baze podatkov\obj\Debug\Vaja_okenska_aplikacija_za_baze_podatkov.Form1.resources
+D:\Pro2\Vaja okenska aplikacija za baze podatkov\Vaja okenska aplikacija za baze podatkov\obj\Debug\Vaja_okenska_aplikacija_za_baze_podatkov.Properties.Resources.resources
+D:\Pro2\Vaja okenska aplikacija za baze podatkov\Vaja okenska aplikacija za baze podatkov\obj\Debug\Vaja okenska aplikacija za baze podatkov.csproj.GenerateResource.cache
+D:\Pro2\Vaja okenska aplikacija za baze podatkov\Vaja okenska aplikacija za baze podatkov\obj\Debug\Vaja okenska aplikacija za baze podatkov.csproj.CoreCompileInputs.cache
+D:\Pro2\Vaja okenska aplikacija za baze podatkov\Vaja okenska aplikacija za baze podatkov\obj\Debug\Vaja okenska aplikacija za baze podatkov.exe
+D:\Pro2\Vaja okenska aplikacija za baze podatkov\Vaja okenska aplikacija za baze podatkov\obj\Debug\Vaja okenska aplikacija za baze podatkov.pdb

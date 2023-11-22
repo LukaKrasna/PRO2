@@ -1,0 +1,13 @@
+D:\Pro2\Povezan dostop (Baze podatkov)\Povezan dostop (Baze podatkov)\bin\Debug\northwnd.mdf
+D:\Pro2\Povezan dostop (Baze podatkov)\Povezan dostop (Baze podatkov)\bin\Debug\northwnd_log.ldf
+D:\Pro2\Povezan dostop (Baze podatkov)\Povezan dostop (Baze podatkov)\bin\Debug\Povezan dostop (Baze podatkov).exe.config
+D:\Pro2\Povezan dostop (Baze podatkov)\Povezan dostop (Baze podatkov)\bin\Debug\Povezan dostop (Baze podatkov).exe
+D:\Pro2\Povezan dostop (Baze podatkov)\Povezan dostop (Baze podatkov)\bin\Debug\Povezan dostop (Baze podatkov).pdb
+D:\Pro2\Povezan dostop (Baze podatkov)\Povezan dostop (Baze podatkov)\obj\Debug\Povezan dostop (Baze podatkov).csproj.AssemblyReference.cache
+D:\Pro2\Povezan dostop (Baze podatkov)\Povezan dostop (Baze podatkov)\obj\Debug\Povezan dostop (Baze podatkov).csproj.SuggestedBindingRedirects.cache
+D:\Pro2\Povezan dostop (Baze podatkov)\Povezan dostop (Baze podatkov)\obj\Debug\Povezan_dostop__Baze_podatkov_.Form1.resources
+D:\Pro2\Povezan dostop (Baze podatkov)\Povezan dostop (Baze podatkov)\obj\Debug\Povezan_dostop__Baze_podatkov_.Properties.Resources.resources
+D:\Pro2\Povezan dostop (Baze podatkov)\Povezan dostop (Baze podatkov)\obj\Debug\Povezan dostop (Baze podatkov).csproj.GenerateResource.cache
+D:\Pro2\Povezan dostop (Baze podatkov)\Povezan dostop (Baze podatkov)\obj\Debug\Povezan dostop (Baze podatkov).csproj.CoreCompileInputs.cache
+D:\Pro2\Povezan dostop (Baze podatkov)\Povezan dostop (Baze podatkov)\obj\Debug\Povezan dostop (Baze podatkov).exe
+D:\Pro2\Povezan dostop (Baze podatkov)\Povezan dostop (Baze podatkov)\obj\Debug\Povezan dostop (Baze podatkov).pdb
