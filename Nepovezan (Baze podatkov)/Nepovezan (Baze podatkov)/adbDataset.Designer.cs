@@ -13820,10 +13820,8 @@ SELECT ProductID, Name, ProductNumber, Color, StandardCost, ListPrice, Size, Wei
             this._commandCollection = new global::System.Data.SqlClient.SqlCommand[1];
             this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[0].Connection = this.Connection;
-            this._commandCollection[0].CommandText = "SELECT ProductID, Name, ProductNumber, Color, StandardCost, ListPrice, Size, Weig" +
-                "ht, ProductCategoryID, ProductModelID, SellStartDate, SellEndDate, DiscontinuedD" +
-                "ate, ThumbNailPhoto, ThumbnailPhotoFileName, rowguid, ModifiedDate FROM SalesLT." +
-                "Product";
+            this._commandCollection[0].CommandText = @"SELECT ProductID, Name, ProductNumber, Color, StandardCost, ListPrice, Size, Weight, ProductCategoryID, ProductModelID, SellStartDate, SellEndDate, DiscontinuedDate, ThumbNailPhoto, ThumbnailPhotoFileName, rowguid, ModifiedDate FROM SalesLT.Product
+WHERE ThumbnailPhotoFileName <> 'no_image_available_small.gif'";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
         }
         

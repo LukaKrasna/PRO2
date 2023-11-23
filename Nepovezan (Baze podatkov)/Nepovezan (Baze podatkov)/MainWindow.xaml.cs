@@ -20,6 +20,9 @@ namespace Nepovezan__Baze_podatkov_
     /// </summary>
     public partial class MainWindow : Window
     {
+        adbDataset adbDataset;
+        adbDatasetTableAdapters.ProductTableAdapter adbDatasetProductTableAdapter;
+        CollectionViewSource productViewSource;
         public MainWindow()
         {
             InitializeComponent();
@@ -28,12 +31,30 @@ namespace Nepovezan__Baze_podatkov_
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
 
-            Nepovezan__Baze_podatkov_.adbDataset adbDataset = ((Nepovezan__Baze_podatkov_.adbDataset)(this.FindResource("adbDataset")));
+            adbDataset = ((adbDataset)(this.FindResource("adbDataset")));
             // Load data into the table Product. You can modify this code as needed.
-            Nepovezan__Baze_podatkov_.adbDatasetTableAdapters.ProductTableAdapter adbDatasetProductTableAdapter = new Nepovezan__Baze_podatkov_.adbDatasetTableAdapters.ProductTableAdapter();
+            adbDatasetProductTableAdapter = new adbDatasetTableAdapters.ProductTableAdapter();
             adbDatasetProductTableAdapter.Fill(adbDataset.Product);
-            System.Windows.Data.CollectionViewSource productViewSource = ((System.Windows.Data.CollectionViewSource)(this.FindResource("productViewSource")));
+            productViewSource = ((CollectionViewSource)(this.FindResource("productViewSource")));
             productViewSource.View.MoveCurrentToFirst();
+        }
+
+        private void btnNaprej_Click(object sender, RoutedEventArgs e)
+        {
+            int dolžina = ((CollectionView)(productViewSource.View)).Count;
+            if (productViewSource.View.CurrentPosition<dolžina-1)
+                productViewSource.View.MoveCurrentToNext();
+        }
+
+        private void btnNazaj_Click(object sender, RoutedEventArgs e)
+        {
+            if (productViewSource.View.CurrentPosition > 0)
+                productViewSource.View.MoveCurrentToPrevious();
+        }
+
+        private void btnShrani_Click(object sender, RoutedEventArgs e)
+        {
+            adbDatasetProductTableAdapter.Update(adbDataset.Product);
         }
     }
 }

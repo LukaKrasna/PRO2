@@ -14,3 +14,4 @@ D:\Pro2\Nepovezan (Baze podatkov)\Nepovezan (Baze podatkov)\obj\Debug\Nepovezan 
 D:\Pro2\Nepovezan (Baze podatkov)\Nepovezan (Baze podatkov)\obj\Debug\Nepovezan (Baze podatkov).csproj.CoreCompileInputs.cache
 D:\Pro2\Nepovezan (Baze podatkov)\Nepovezan (Baze podatkov)\obj\Debug\Nepovezan (Baze podatkov).exe
 D:\Pro2\Nepovezan (Baze podatkov)\Nepovezan (Baze podatkov)\obj\Debug\Nepovezan (Baze podatkov).pdb
+D:\Pro2\Nepovezan (Baze podatkov)\Nepovezan (Baze podatkov)\obj\Debug\GeneratedInternalTypeHelper.g.cs

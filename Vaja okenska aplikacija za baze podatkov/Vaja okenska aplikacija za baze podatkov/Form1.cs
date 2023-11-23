@@ -11,6 +11,7 @@ using System.Windows.Forms;
 
 namespace Vaja_okenska_aplikacija_za_baze_podatkov
 {
+    //naloga: https://ucilnice.scng.si/pluginfile.php/26237/mod_resource/content/0/Vaje_SQL_in_povezan_dostop.pdf
     public partial class Form1 : Form
     {
         string povezava = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\northwnd.mdf;Integrated Security=True;Connect Timeout=30";
