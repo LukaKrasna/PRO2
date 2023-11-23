@@ -1,0 +1,11 @@
+D:\Pro2\Vaje – podatkovne baze povezan in nepovezan dostop\Vaje – podatkovne baze povezan in nepovezan dostop\bin\Debug\Vaje – podatkovne baze povezan in nepovezan dostop.exe.config
+D:\Pro2\Vaje – podatkovne baze povezan in nepovezan dostop\Vaje – podatkovne baze povezan in nepovezan dostop\bin\Debug\Vaje – podatkovne baze povezan in nepovezan dostop.exe
+D:\Pro2\Vaje – podatkovne baze povezan in nepovezan dostop\Vaje – podatkovne baze povezan in nepovezan dostop\bin\Debug\Vaje – podatkovne baze povezan in nepovezan dostop.pdb
+D:\Pro2\Vaje – podatkovne baze povezan in nepovezan dostop\Vaje – podatkovne baze povezan in nepovezan dostop\obj\Debug\Vaje – podatkovne baze povezan in nepovezan dostop.csproj.AssemblyReference.cache
+D:\Pro2\Vaje – podatkovne baze povezan in nepovezan dostop\Vaje – podatkovne baze povezan in nepovezan dostop\obj\Debug\Vaje – podatkovne baze povezan in nepovezan dostop.csproj.SuggestedBindingRedirects.cache
+D:\Pro2\Vaje – podatkovne baze povezan in nepovezan dostop\Vaje – podatkovne baze povezan in nepovezan dostop\obj\Debug\Vaje___podatkovne_baze_povezan_in_nepovezan_dostop.Form1.resources
+D:\Pro2\Vaje – podatkovne baze povezan in nepovezan dostop\Vaje – podatkovne baze povezan in nepovezan dostop\obj\Debug\Vaje___podatkovne_baze_povezan_in_nepovezan_dostop.Properties.Resources.resources
+D:\Pro2\Vaje – podatkovne baze povezan in nepovezan dostop\Vaje – podatkovne baze povezan in nepovezan dostop\obj\Debug\Vaje – podatkovne baze povezan in nepovezan dostop.csproj.GenerateResource.cache
+D:\Pro2\Vaje – podatkovne baze povezan in nepovezan dostop\Vaje – podatkovne baze povezan in nepovezan dostop\obj\Debug\Vaje – podatkovne baze povezan in nepovezan dostop.csproj.CoreCompileInputs.cache
+D:\Pro2\Vaje – podatkovne baze povezan in nepovezan dostop\Vaje – podatkovne baze povezan in nepovezan dostop\obj\Debug\Vaje – podatkovne baze povezan in nepovezan dostop.exe
+D:\Pro2\Vaje – podatkovne baze povezan in nepovezan dostop\Vaje – podatkovne baze povezan in nepovezan dostop\obj\Debug\Vaje – podatkovne baze povezan in nepovezan dostop.pdb

@@ -18,6 +18,7 @@ namespace Nepovezan__Baze_podatkov_
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
+    /// navodila: https://ucilnice.scng.si/pluginfile.php/26238/mod_resource/content/0/Vaje_-_nepovezan.pdf
     public partial class MainWindow : Window
     {
         adbDataset adbDataset;
