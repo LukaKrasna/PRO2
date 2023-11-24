@@ -1,0 +1,8 @@
+D:\Pro2\LinqPoizvedbe\LinqPoizvedbe\bin\Debug\LinqPoizvedbe.exe.config
+D:\Pro2\LinqPoizvedbe\LinqPoizvedbe\bin\Debug\LinqPoizvedbe.exe
+D:\Pro2\LinqPoizvedbe\LinqPoizvedbe\bin\Debug\LinqPoizvedbe.pdb
+D:\Pro2\LinqPoizvedbe\LinqPoizvedbe\obj\Debug\LinqPoizvedbe.csproj.AssemblyReference.cache
+D:\Pro2\LinqPoizvedbe\LinqPoizvedbe\obj\Debug\LinqPoizvedbe.csproj.SuggestedBindingRedirects.cache
+D:\Pro2\LinqPoizvedbe\LinqPoizvedbe\obj\Debug\LinqPoizvedbe.csproj.CoreCompileInputs.cache
+D:\Pro2\LinqPoizvedbe\LinqPoizvedbe\obj\Debug\LinqPoizvedbe.exe
+D:\Pro2\LinqPoizvedbe\LinqPoizvedbe\obj\Debug\LinqPoizvedbe.pdb

@@ -1,0 +1,8 @@
+D:\Pro2\vajeLinq1\vajeLinq1\bin\Debug\vajeLinq1.exe.config
+D:\Pro2\vajeLinq1\vajeLinq1\bin\Debug\vajeLinq1.exe
+D:\Pro2\vajeLinq1\vajeLinq1\bin\Debug\vajeLinq1.pdb
+D:\Pro2\vajeLinq1\vajeLinq1\obj\Debug\vajeLinq1.csproj.AssemblyReference.cache
+D:\Pro2\vajeLinq1\vajeLinq1\obj\Debug\vajeLinq1.csproj.SuggestedBindingRedirects.cache
+D:\Pro2\vajeLinq1\vajeLinq1\obj\Debug\vajeLinq1.csproj.CoreCompileInputs.cache
+D:\Pro2\vajeLinq1\vajeLinq1\obj\Debug\vajeLinq1.exe
+D:\Pro2\vajeLinq1\vajeLinq1\obj\Debug\vajeLinq1.pdb
