@@ -1,0 +1,8 @@
+D:\Pro2\LinqVDrevesu\LinqVDrevesu\bin\Debug\LinqVDrevesu.exe.config
+D:\Pro2\LinqVDrevesu\LinqVDrevesu\bin\Debug\LinqVDrevesu.exe
+D:\Pro2\LinqVDrevesu\LinqVDrevesu\bin\Debug\LinqVDrevesu.pdb
+D:\Pro2\LinqVDrevesu\LinqVDrevesu\obj\Debug\LinqVDrevesu.csproj.AssemblyReference.cache
+D:\Pro2\LinqVDrevesu\LinqVDrevesu\obj\Debug\LinqVDrevesu.csproj.SuggestedBindingRedirects.cache
+D:\Pro2\LinqVDrevesu\LinqVDrevesu\obj\Debug\LinqVDrevesu.csproj.CoreCompileInputs.cache
+D:\Pro2\LinqVDrevesu\LinqVDrevesu\obj\Debug\LinqVDrevesu.exe
+D:\Pro2\LinqVDrevesu\LinqVDrevesu\obj\Debug\LinqVDrevesu.pdb
