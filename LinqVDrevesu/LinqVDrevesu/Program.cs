@@ -5,7 +5,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using BinaryTree;
-
 namespace LinqVDrevesu
 {
     internal class Program
@@ -43,6 +42,40 @@ namespace LinqVDrevesu
             foreach (var x in vsi)
             {
                 Console.WriteLine(x.ToString());
+            }
+            //izpiši vse oddelke
+            var x1 = from a in z
+                     select a.Oddelek;
+            foreach (var x in x1)
+            {
+                Console.WriteLine(x);
+            }
+            //izpiši različne 
+            var x2 = from a in z
+                     select a.Oddelek;
+            foreach (var x in x2)
+            {
+                Console.WriteLine(x);
+            }
+            //izpiši zaposlene v IT oddelku
+            var x3 = from a in z
+                     where a.Oddelek == "IT"
+                     select a;
+            Console.WriteLine("*************************");
+            foreach(var x in x3)
+            {
+                Console.WriteLine(x.ToString());
+            }
+            //izpiši zaposlene po oddelkih
+            var x4 = from a in z
+                     group a by a.Oddelek;
+            foreach (var x in x4)
+            {
+                Console.WriteLine("Oddelek "+x.Key);
+                foreach(var y in x)
+                {
+                    Console.WriteLine(y.ToString());
+                }
             }
         }
     }

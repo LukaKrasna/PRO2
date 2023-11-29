@@ -1,0 +1,8 @@
+D:\Pro2\LinkDoBazeSQL\LinkDoBazeSQL\bin\Debug\LinkDoBazeSQL.exe.config
+D:\Pro2\LinkDoBazeSQL\LinkDoBazeSQL\bin\Debug\LinkDoBazeSQL.exe
+D:\Pro2\LinkDoBazeSQL\LinkDoBazeSQL\bin\Debug\LinkDoBazeSQL.pdb
+D:\Pro2\LinkDoBazeSQL\LinkDoBazeSQL\obj\Debug\LinkDoBazeSQL.csproj.AssemblyReference.cache
+D:\Pro2\LinkDoBazeSQL\LinkDoBazeSQL\obj\Debug\LinkDoBazeSQL.csproj.SuggestedBindingRedirects.cache
+D:\Pro2\LinkDoBazeSQL\LinkDoBazeSQL\obj\Debug\LinkDoBazeSQL.csproj.CoreCompileInputs.cache
+D:\Pro2\LinkDoBazeSQL\LinkDoBazeSQL\obj\Debug\LinkDoBazeSQL.exe
+D:\Pro2\LinkDoBazeSQL\LinkDoBazeSQL\obj\Debug\LinkDoBazeSQL.pdb

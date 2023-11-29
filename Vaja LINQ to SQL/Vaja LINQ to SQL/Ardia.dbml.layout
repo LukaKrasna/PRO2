@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Ardia">
+  <DataContextMoniker Name="/ArdiaDataContext" />
+  <nestedChildShapes>
+    <classShape Id="f090b455-6baa-40eb-86e1-05940eee6337" absoluteBounds="5.875, 4.125, 2, 3.1170068359375">
+      <DataClassMoniker Name="/ArdiaDataContext/CHARTER" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0796a79c-6105-4425-90e8-46884a5427da" absoluteBounds="5.89, 4.585, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="681cabd0-eb60-4dd2-a1ca-a15391481b19" absoluteBounds="5, 1.25, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/ArdiaDataContext/LETALO" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2f3205b9-b47b-45c6-8cdf-7549a50e5e71" absoluteBounds="5.0150000000000006, 1.71, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.4375 : 3.02089680989583); (6.4375 : 4.125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ArdiaDataContext/LETALO/LETALO_CHARTER" />
+      <nodes>
+        <classShapeMoniker Id="681cabd0-eb60-4dd2-a1ca-a15391481b19" />
+        <classShapeMoniker Id="f090b455-6baa-40eb-86e1-05940eee6337" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="69a3982b-0eda-45c7-a5a8-405f28c87aaf" absoluteBounds="1.625, 1.625, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/ArdiaDataContext/MODEL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e439087c-cbca-4a43-a8fb-098026689f73" absoluteBounds="1.6399999999999997, 2.085, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.625 : 2.32294840494792); (5 : 2.32294840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ArdiaDataContext/MODEL/MODEL_LETALO" />
+      <nodes>
+        <classShapeMoniker Id="69a3982b-0eda-45c7-a5a8-405f28c87aaf" />
+        <classShapeMoniker Id="681cabd0-eb60-4dd2-a1ca-a15391481b19" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="ffe269cb-87d3-4012-a50b-51aba32f6346" absoluteBounds="3.125, 4.625, 2, 1.9631982421875">
+      <DataClassMoniker Name="/ArdiaDataContext/PILOT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="650be8f4-8c66-4e6e-b6ac-bd864a05ab04" absoluteBounds="3.14, 5.085, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.125 : 5.60659912109375); (5.875 : 5.60659912109375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ArdiaDataContext/PILOT/PILOT_CHARTER" />
+      <nodes>
+        <classShapeMoniker Id="ffe269cb-87d3-4012-a50b-51aba32f6346" />
+        <classShapeMoniker Id="f090b455-6baa-40eb-86e1-05940eee6337" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="fe25d7cb-a32f-4da6-9eb2-0986ea544426" absoluteBounds="8.375, 4.125, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/ArdiaDataContext/STRANKA" />
+      <nestedChildShapes>
+        <elementListCompartment Id="74231e11-f2cf-46fc-953a-6ae88420aeb6" absoluteBounds="8.39, 4.585, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8.375 : 5.20274983723958); (7.875 : 5.20274983723958)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ArdiaDataContext/STRANKA/STRANKA_CHARTER" />
+      <nodes>
+        <classShapeMoniker Id="fe25d7cb-a32f-4da6-9eb2-0986ea544426" />
+        <classShapeMoniker Id="f090b455-6baa-40eb-86e1-05940eee6337" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="fb78aa6c-544e-4ca1-b84c-1722746069ce" absoluteBounds="0.5, 4.25, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/ArdiaDataContext/ZAPOSELNI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2d36dea2-12c0-4a88-ae95-c677311ca57c" absoluteBounds="0.51500000000000057, 4.71, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.5 : 5.51524983723958); (3.125 : 5.51524983723958)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ArdiaDataContext/ZAPOSELNI/ZAPOSELNI_PILOT" />
+      <nodes>
+        <classShapeMoniker Id="fb78aa6c-544e-4ca1-b84c-1722746069ce" />
+        <classShapeMoniker Id="ffe269cb-87d3-4012-a50b-51aba32f6346" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

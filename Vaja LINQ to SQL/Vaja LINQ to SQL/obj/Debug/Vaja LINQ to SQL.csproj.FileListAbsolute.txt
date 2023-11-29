@@ -1,0 +1,8 @@
+D:\Pro2\Vaja LINQ to SQL\Vaja LINQ to SQL\bin\Debug\Vaja LINQ to SQL.exe.config
+D:\Pro2\Vaja LINQ to SQL\Vaja LINQ to SQL\bin\Debug\Vaja LINQ to SQL.exe
+D:\Pro2\Vaja LINQ to SQL\Vaja LINQ to SQL\bin\Debug\Vaja LINQ to SQL.pdb
+D:\Pro2\Vaja LINQ to SQL\Vaja LINQ to SQL\obj\Debug\Vaja LINQ to SQL.csproj.AssemblyReference.cache
+D:\Pro2\Vaja LINQ to SQL\Vaja LINQ to SQL\obj\Debug\Vaja LINQ to SQL.csproj.SuggestedBindingRedirects.cache
+D:\Pro2\Vaja LINQ to SQL\Vaja LINQ to SQL\obj\Debug\Vaja LINQ to SQL.csproj.CoreCompileInputs.cache
+D:\Pro2\Vaja LINQ to SQL\Vaja LINQ to SQL\obj\Debug\Vaja LINQ to SQL.exe
+D:\Pro2\Vaja LINQ to SQL\Vaja LINQ to SQL\obj\Debug\Vaja LINQ to SQL.pdb
