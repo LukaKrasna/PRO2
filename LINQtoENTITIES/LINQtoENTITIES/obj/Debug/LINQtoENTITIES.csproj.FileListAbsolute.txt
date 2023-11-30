@@ -1,0 +1,15 @@
+D:\Pro2\LINQtoENTITIES\LINQtoENTITIES\bin\Debug\LINQtoENTITIES.exe.config
+D:\Pro2\LINQtoENTITIES\LINQtoENTITIES\bin\Debug\LINQtoENTITIES.exe
+D:\Pro2\LINQtoENTITIES\LINQtoENTITIES\bin\Debug\LINQtoENTITIES.pdb
+D:\Pro2\LINQtoENTITIES\LINQtoENTITIES\bin\Debug\EntityFramework.dll
+D:\Pro2\LINQtoENTITIES\LINQtoENTITIES\bin\Debug\EntityFramework.SqlServer.dll
+D:\Pro2\LINQtoENTITIES\LINQtoENTITIES\bin\Debug\EntityFramework.xml
+D:\Pro2\LINQtoENTITIES\LINQtoENTITIES\bin\Debug\EntityFramework.SqlServer.xml
+D:\Pro2\LINQtoENTITIES\LINQtoENTITIES\obj\Debug\LINQtoENTITIES.csproj.AssemblyReference.cache
+D:\Pro2\LINQtoENTITIES\LINQtoENTITIES\obj\Debug\LINQtoENTITIES.csproj.SuggestedBindingRedirects.cache
+D:\Pro2\LINQtoENTITIES\LINQtoENTITIES\obj\Debug\LINQtoENTITIES.csproj.CoreCompileInputs.cache
+D:\Pro2\LINQtoENTITIES\LINQtoENTITIES\obj\Debug\LINQtoENTITIES.csproj.CopyComplete
+D:\Pro2\LINQtoENTITIES\LINQtoENTITIES\obj\Debug\LINQtoENTITIES.exe
+D:\Pro2\LINQtoENTITIES\LINQtoENTITIES\obj\Debug\LINQtoENTITIES.pdb
+D:\Pro2\LINQtoENTITIES\LINQtoENTITIES\bin\Debug\northwnd.mdf
+D:\Pro2\LINQtoENTITIES\LINQtoENTITIES\bin\Debug\northwnd_log.ldf

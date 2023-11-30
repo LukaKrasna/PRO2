@@ -1,0 +1,8 @@
+D:\Pro2\UvodVDelegate\UvodVDelegate\bin\Debug\UvodVDelegate.exe.config
+D:\Pro2\UvodVDelegate\UvodVDelegate\bin\Debug\UvodVDelegate.exe
+D:\Pro2\UvodVDelegate\UvodVDelegate\bin\Debug\UvodVDelegate.pdb
+D:\Pro2\UvodVDelegate\UvodVDelegate\obj\Debug\UvodVDelegate.csproj.AssemblyReference.cache
+D:\Pro2\UvodVDelegate\UvodVDelegate\obj\Debug\UvodVDelegate.csproj.SuggestedBindingRedirects.cache
+D:\Pro2\UvodVDelegate\UvodVDelegate\obj\Debug\UvodVDelegate.csproj.CoreCompileInputs.cache
+D:\Pro2\UvodVDelegate\UvodVDelegate\obj\Debug\UvodVDelegate.exe
+D:\Pro2\UvodVDelegate\UvodVDelegate\obj\Debug\UvodVDelegate.pdb
