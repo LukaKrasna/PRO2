@@ -1,0 +1,874 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AdventureWorksLT2019Model1.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'AdventureWorksLT2019.dbo.BuildVersion' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="BuildVersion">
+    <Key>
+      <PropertyRef Name="SystemInformationID" />
+      <PropertyRef Name="Database Version" />
+      <PropertyRef Name="VersionDate" />
+      <PropertyRef Name="ModifiedDate" />
+    </Key>
+    <Property Name="SystemInformationID" Type="tinyint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Database Version" Type="nvarchar" MaxLength="25" Nullable="false" />
+    <Property Name="VersionDate" Type="datetime" Nullable="false" />
+    <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ErrorLog">
+    <Key>
+      <PropertyRef Name="ErrorLogID" />
+    </Key>
+    <Property Name="ErrorLogID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ErrorTime" Type="datetime" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="ErrorNumber" Type="int" Nullable="false" />
+    <Property Name="ErrorSeverity" Type="int" />
+    <Property Name="ErrorState" Type="int" />
+    <Property Name="ErrorProcedure" Type="nvarchar" MaxLength="126" />
+    <Property Name="ErrorLine" Type="int" />
+    <Property Name="ErrorMessage" Type="nvarchar" MaxLength="4000" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MyEmployees">
+    <Key>
+      <PropertyRef Name="EmployeeID" />
+    </Key>
+    <Property Name="EmployeeID" Type="smallint" Nullable="false" />
+    <Property Name="FirstName" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="LastName" Type="nvarchar" MaxLength="40" Nullable="false" />
+    <Property Name="Title" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="DeptID" Type="smallint" Nullable="false" />
+    <Property Name="ManagerID" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'AdventureWorksLT2019.dbo.Sales' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="Sales">
+          <Property Name="Country" Type="varchar" MaxLength="50" />
+          <Property Name="Region" Type="varchar" MaxLength="50" />
+          <Property Name="Sales" Type="int" />
+        </EntityType>-->
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Address">
+    <Key>
+      <PropertyRef Name="AddressID" />
+    </Key>
+    <Property Name="AddressID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AddressLine1" Type="nvarchar" MaxLength="60" Nullable="false" />
+    <Property Name="AddressLine2" Type="nvarchar" MaxLength="60" />
+    <Property Name="City" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="StateProvince" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="CountryRegion" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="PostalCode" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="rowguid" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="CustomerID" />
+    </Key>
+    <Property Name="CustomerID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NameStyle" Type="bit" Nullable="false" />
+    <Property Name="Title" Type="nvarchar" MaxLength="8" />
+    <Property Name="FirstName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="MiddleName" Type="nvarchar" MaxLength="50" />
+    <Property Name="LastName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Suffix" Type="nvarchar" MaxLength="10" />
+    <Property Name="CompanyName" Type="nvarchar" MaxLength="128" />
+    <Property Name="SalesPerson" Type="nvarchar" MaxLength="256" />
+    <Property Name="EmailAddress" Type="nvarchar" MaxLength="50" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="25" />
+    <Property Name="PasswordHash" Type="varchar" MaxLength="128" Nullable="false" />
+    <Property Name="PasswordSalt" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="rowguid" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CustomerAddress">
+    <Key>
+      <PropertyRef Name="CustomerID" />
+      <PropertyRef Name="AddressID" />
+    </Key>
+    <Property Name="CustomerID" Type="int" Nullable="false" />
+    <Property Name="AddressID" Type="int" Nullable="false" />
+    <Property Name="AddressType" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="rowguid" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PersonAddress">
+    <Key>
+      <PropertyRef Name="AddressID" />
+    </Key>
+    <Property Name="AddressID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AddressLine1" Type="nvarchar" MaxLength="60" Nullable="false" />
+    <Property Name="AddressLine2" Type="nvarchar" MaxLength="60" />
+    <Property Name="City" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="StateProvinceID" Type="int" Nullable="false" />
+    <Property Name="PostalCode" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="SpatialLocation" Type="geography" />
+    <Property Name="rowguid" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="ProductID" />
+    </Key>
+    <Property Name="ProductID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ProductNumber" Type="nvarchar" MaxLength="25" Nullable="false" />
+    <Property Name="Color" Type="nvarchar" MaxLength="15" />
+    <Property Name="StandardCost" Type="money" Nullable="false" />
+    <Property Name="ListPrice" Type="money" Nullable="false" />
+    <Property Name="Size" Type="nvarchar" MaxLength="5" />
+    <Property Name="Weight" Type="decimal" Precision="8" Scale="2" />
+    <Property Name="ProductCategoryID" Type="int" />
+    <Property Name="ProductModelID" Type="int" />
+    <Property Name="SellStartDate" Type="datetime" Nullable="false" />
+    <Property Name="SellEndDate" Type="datetime" />
+    <Property Name="DiscontinuedDate" Type="datetime" />
+    <Property Name="ThumbNailPhoto" Type="varbinary(max)" />
+    <Property Name="ThumbnailPhotoFileName" Type="nvarchar" MaxLength="50" />
+    <Property Name="rowguid" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ProductCategory">
+    <Key>
+      <PropertyRef Name="ProductCategoryID" />
+    </Key>
+    <Property Name="ProductCategoryID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ParentProductCategoryID" Type="int" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="rowguid" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ProductDescription">
+    <Key>
+      <PropertyRef Name="ProductDescriptionID" />
+    </Key>
+    <Property Name="ProductDescriptionID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="400" Nullable="false" />
+    <Property Name="rowguid" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ProductModel">
+    <Key>
+      <PropertyRef Name="ProductModelID" />
+    </Key>
+    <Property Name="ProductModelID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="CatalogDescription" Type="xml" />
+    <Property Name="rowguid" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ProductModelProductDescription">
+    <Key>
+      <PropertyRef Name="ProductModelID" />
+      <PropertyRef Name="ProductDescriptionID" />
+      <PropertyRef Name="Culture" />
+    </Key>
+    <Property Name="ProductModelID" Type="int" Nullable="false" />
+    <Property Name="ProductDescriptionID" Type="int" Nullable="false" />
+    <Property Name="Culture" Type="nchar" MaxLength="6" Nullable="false" />
+    <Property Name="rowguid" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SalesOrderDetail">
+    <Key>
+      <PropertyRef Name="SalesOrderID" />
+      <PropertyRef Name="SalesOrderDetailID" />
+    </Key>
+    <Property Name="SalesOrderID" Type="int" Nullable="false" />
+    <Property Name="SalesOrderDetailID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="OrderQty" Type="smallint" Nullable="false" />
+    <Property Name="ProductID" Type="int" Nullable="false" />
+    <Property Name="UnitPrice" Type="money" Nullable="false" />
+    <Property Name="UnitPriceDiscount" Type="money" Nullable="false" />
+    <Property Name="LineTotal" Type="numeric" Precision="38" Scale="6" StoreGeneratedPattern="Computed" Nullable="false" />
+    <Property Name="rowguid" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SalesOrderHeader">
+    <Key>
+      <PropertyRef Name="SalesOrderID" />
+    </Key>
+    <Property Name="SalesOrderID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RevisionNumber" Type="tinyint" Nullable="false" />
+    <Property Name="OrderDate" Type="datetime" Nullable="false" />
+    <Property Name="DueDate" Type="datetime" Nullable="false" />
+    <Property Name="ShipDate" Type="datetime" />
+    <Property Name="Status" Type="tinyint" Nullable="false" />
+    <Property Name="OnlineOrderFlag" Type="bit" Nullable="false" />
+    <Property Name="SalesOrderNumber" Type="nvarchar" MaxLength="25" StoreGeneratedPattern="Computed" Nullable="false" />
+    <Property Name="PurchaseOrderNumber" Type="nvarchar" MaxLength="25" />
+    <Property Name="AccountNumber" Type="nvarchar" MaxLength="15" />
+    <Property Name="CustomerID" Type="int" Nullable="false" />
+    <Property Name="ShipToAddressID" Type="int" />
+    <Property Name="BillToAddressID" Type="int" />
+    <Property Name="ShipMethod" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="CreditCardApprovalCode" Type="varchar" MaxLength="15" />
+    <Property Name="SubTotal" Type="money" Nullable="false" />
+    <Property Name="TaxAmt" Type="money" Nullable="false" />
+    <Property Name="Freight" Type="money" Nullable="false" />
+    <Property Name="TotalDue" Type="money" StoreGeneratedPattern="Computed" Nullable="false" />
+    <Property Name="Comment" Type="nvarchar(max)" />
+    <Property Name="rowguid" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'AdventureWorksLT2019.dbo.Izguba' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Izguba">
+    <Key>
+      <PropertyRef Name="ProductID" />
+      <PropertyRef Name="Name" />
+      <PropertyRef Name="StandardCost" />
+      <PropertyRef Name="ListPrice" />
+    </Key>
+    <Property Name="ProductID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="StandardCost" Type="money" Nullable="false" />
+    <Property Name="ListPrice" Type="money" Nullable="false" />
+    <Property Name="AvgSellingPrice" Type="money" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'AdventureWorksLT2019.dbo.Nov' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Nov">
+    <Key>
+      <PropertyRef Name="CustomerID" />
+      <PropertyRef Name="FirstName" />
+      <PropertyRef Name="LastName" />
+      <PropertyRef Name="AddressLine1" />
+      <PropertyRef Name="City" />
+    </Key>
+    <Property Name="CustomerID" Type="int" Nullable="false" />
+    <Property Name="FirstName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="LastName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="AddressLine1" Type="nvarchar" MaxLength="60" Nullable="false" />
+    <Property Name="City" Type="nvarchar" MaxLength="30" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'AdventureWorksLT2019.dbo.Product' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Product1">
+    <Key>
+      <PropertyRef Name="ProductID" />
+      <PropertyRef Name="Name" />
+      <PropertyRef Name="ProductNumber" />
+      <PropertyRef Name="StandardCost" />
+      <PropertyRef Name="ListPrice" />
+      <PropertyRef Name="SellStartDate" />
+      <PropertyRef Name="rowguid" />
+      <PropertyRef Name="ModifiedDate" />
+    </Key>
+    <Property Name="ProductID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ProductNumber" Type="nvarchar" MaxLength="25" Nullable="false" />
+    <Property Name="Color" Type="nvarchar" MaxLength="15" />
+    <Property Name="StandardCost" Type="money" Nullable="false" />
+    <Property Name="ListPrice" Type="money" Nullable="false" />
+    <Property Name="Size" Type="nvarchar" MaxLength="5" />
+    <Property Name="Weight" Type="decimal" Precision="8" Scale="2" />
+    <Property Name="ProductCategoryID" Type="int" />
+    <Property Name="ProductModelID" Type="int" />
+    <Property Name="SellStartDate" Type="datetime" Nullable="false" />
+    <Property Name="SellEndDate" Type="datetime" />
+    <Property Name="DiscontinuedDate" Type="datetime" />
+    <Property Name="ThumbNailPhoto" Type="varbinary(max)" />
+    <Property Name="ThumbnailPhotoFileName" Type="nvarchar" MaxLength="50" />
+    <Property Name="rowguid" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'AdventureWorksLT2019.dbo.Produkt' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Produkt">
+    <Key>
+      <PropertyRef Name="ProductID" />
+      <PropertyRef Name="Name" />
+      <PropertyRef Name="ProductNumber" />
+      <PropertyRef Name="StandardCost" />
+      <PropertyRef Name="ListPrice" />
+      <PropertyRef Name="SellStartDate" />
+      <PropertyRef Name="rowguid" />
+      <PropertyRef Name="ModifiedDate" />
+    </Key>
+    <Property Name="ProductID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ProductNumber" Type="nvarchar" MaxLength="25" Nullable="false" />
+    <Property Name="Color" Type="nvarchar" MaxLength="15" />
+    <Property Name="StandardCost" Type="money" Nullable="false" />
+    <Property Name="ListPrice" Type="money" Nullable="false" />
+    <Property Name="Size" Type="nvarchar" MaxLength="5" />
+    <Property Name="Weight" Type="decimal" Precision="8" Scale="2" />
+    <Property Name="ProductCategoryID" Type="int" />
+    <Property Name="ProductModelID" Type="int" />
+    <Property Name="SellStartDate" Type="datetime" Nullable="false" />
+    <Property Name="SellEndDate" Type="datetime" />
+    <Property Name="DiscontinuedDate" Type="datetime" />
+    <Property Name="ThumbNailPhoto" Type="varbinary(max)" />
+    <Property Name="ThumbnailPhotoFileName" Type="nvarchar" MaxLength="50" />
+    <Property Name="rowguid" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'AdventureWorksLT2019.dbo.Produkti' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Produkti">
+    <Key>
+      <PropertyRef Name="ProductID" />
+      <PropertyRef Name="Name" />
+      <PropertyRef Name="ProductNumber" />
+      <PropertyRef Name="StandardCost" />
+      <PropertyRef Name="ListPrice" />
+      <PropertyRef Name="SellStartDate" />
+      <PropertyRef Name="rowguid" />
+      <PropertyRef Name="ModifiedDate" />
+    </Key>
+    <Property Name="ProductID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ProductNumber" Type="nvarchar" MaxLength="25" Nullable="false" />
+    <Property Name="Color" Type="nvarchar" MaxLength="15" />
+    <Property Name="StandardCost" Type="money" Nullable="false" />
+    <Property Name="ListPrice" Type="money" Nullable="false" />
+    <Property Name="Size" Type="nvarchar" MaxLength="5" />
+    <Property Name="Weight" Type="decimal" Precision="8" Scale="2" />
+    <Property Name="ProductCategoryID" Type="int" />
+    <Property Name="ProductModelID" Type="int" />
+    <Property Name="SellStartDate" Type="datetime" Nullable="false" />
+    <Property Name="SellEndDate" Type="datetime" />
+    <Property Name="DiscontinuedDate" Type="datetime" />
+    <Property Name="ThumbNailPhoto" Type="varbinary(max)" />
+    <Property Name="ThumbnailPhotoFileName" Type="nvarchar" MaxLength="50" />
+    <Property Name="rowguid" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'AdventureWorksLT2019.dbo.Produktii' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Produktii">
+    <Key>
+      <PropertyRef Name="ProductID" />
+      <PropertyRef Name="Name" />
+      <PropertyRef Name="ProductNumber" />
+      <PropertyRef Name="StandardCost" />
+      <PropertyRef Name="ListPrice" />
+      <PropertyRef Name="SellStartDate" />
+      <PropertyRef Name="rowguid" />
+      <PropertyRef Name="ModifiedDate" />
+    </Key>
+    <Property Name="ProductID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ProductNumber" Type="nvarchar" MaxLength="25" Nullable="false" />
+    <Property Name="Color" Type="nvarchar" MaxLength="15" />
+    <Property Name="StandardCost" Type="money" Nullable="false" />
+    <Property Name="ListPrice" Type="money" Nullable="false" />
+    <Property Name="Size" Type="nvarchar" MaxLength="5" />
+    <Property Name="Weight" Type="decimal" Precision="8" Scale="2" />
+    <Property Name="ProductCategoryID" Type="int" />
+    <Property Name="ProductModelID" Type="int" />
+    <Property Name="SellStartDate" Type="datetime" Nullable="false" />
+    <Property Name="SellEndDate" Type="datetime" />
+    <Property Name="DiscontinuedDate" Type="datetime" />
+    <Property Name="ThumbNailPhoto" Type="varbinary(max)" />
+    <Property Name="ThumbnailPhotoFileName" Type="nvarchar" MaxLength="50" />
+    <Property Name="rowguid" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'AdventureWorksLT2019.dbo.Produktiii' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Produktiii">
+    <Key>
+      <PropertyRef Name="ProductID" />
+      <PropertyRef Name="Name" />
+      <PropertyRef Name="ProductNumber" />
+      <PropertyRef Name="StandardCost" />
+      <PropertyRef Name="ListPrice" />
+      <PropertyRef Name="SellStartDate" />
+      <PropertyRef Name="rowguid" />
+      <PropertyRef Name="ModifiedDate" />
+    </Key>
+    <Property Name="ProductID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ProductNumber" Type="nvarchar" MaxLength="25" Nullable="false" />
+    <Property Name="Color" Type="nvarchar" MaxLength="15" />
+    <Property Name="StandardCost" Type="money" Nullable="false" />
+    <Property Name="ListPrice" Type="money" Nullable="false" />
+    <Property Name="Size" Type="nvarchar" MaxLength="5" />
+    <Property Name="Weight" Type="decimal" Precision="8" Scale="2" />
+    <Property Name="ProductCategoryID" Type="int" />
+    <Property Name="ProductModelID" Type="int" />
+    <Property Name="SellStartDate" Type="datetime" Nullable="false" />
+    <Property Name="SellEndDate" Type="datetime" />
+    <Property Name="DiscontinuedDate" Type="datetime" />
+    <Property Name="ThumbNailPhoto" Type="varbinary(max)" />
+    <Property Name="ThumbnailPhotoFileName" Type="nvarchar" MaxLength="50" />
+    <Property Name="rowguid" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'AdventureWorksLT2019.dbo.View_1' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="View_1">
+    <Key>
+      <PropertyRef Name="ModifiedDate" />
+      <PropertyRef Name="SubTotal" />
+    </Key>
+    <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
+    <Property Name="MiddleName" Type="nvarchar" MaxLength="50" />
+    <Property Name="SubTotal" Type="money" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'AdventureWorksLT2019.SalesLT.vGetAllCategories' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vGetAllCategories">
+    <Key>
+      <PropertyRef Name="ParentProductCategoryName" />
+    </Key>
+    <Property Name="ParentProductCategoryName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ProductCategoryName" Type="nvarchar" MaxLength="50" />
+    <Property Name="ProductCategoryID" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'AdventureWorksLT2019.SalesLT.vProductAndDescription' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vProductAndDescription">
+    <Key>
+      <PropertyRef Name="ProductID" />
+      <PropertyRef Name="Name" />
+      <PropertyRef Name="ProductModel" />
+      <PropertyRef Name="Culture" />
+      <PropertyRef Name="Description" />
+    </Key>
+    <Property Name="ProductID" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ProductModel" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Culture" Type="nchar" MaxLength="6" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="400" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'AdventureWorksLT2019.SalesLT.vProductModelCatalogDescription' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vProductModelCatalogDescription">
+    <Key>
+      <PropertyRef Name="ProductModelID" />
+      <PropertyRef Name="Name" />
+      <PropertyRef Name="rowguid" />
+      <PropertyRef Name="ModifiedDate" />
+    </Key>
+    <Property Name="ProductModelID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Summary" Type="nvarchar(max)" />
+    <Property Name="Manufacturer" Type="nvarchar(max)" />
+    <Property Name="Copyright" Type="nvarchar" MaxLength="30" />
+    <Property Name="ProductURL" Type="nvarchar" MaxLength="256" />
+    <Property Name="WarrantyPeriod" Type="nvarchar" MaxLength="256" />
+    <Property Name="WarrantyDescription" Type="nvarchar" MaxLength="256" />
+    <Property Name="NoOfYears" Type="nvarchar" MaxLength="256" />
+    <Property Name="MaintenanceDescription" Type="nvarchar" MaxLength="256" />
+    <Property Name="Wheel" Type="nvarchar" MaxLength="256" />
+    <Property Name="Saddle" Type="nvarchar" MaxLength="256" />
+    <Property Name="Pedal" Type="nvarchar" MaxLength="256" />
+    <Property Name="BikeFrame" Type="nvarchar(max)" />
+    <Property Name="Crankset" Type="nvarchar" MaxLength="256" />
+    <Property Name="PictureAngle" Type="nvarchar" MaxLength="256" />
+    <Property Name="PictureSize" Type="nvarchar" MaxLength="256" />
+    <Property Name="ProductPhotoID" Type="nvarchar" MaxLength="256" />
+    <Property Name="Material" Type="nvarchar" MaxLength="256" />
+    <Property Name="Color" Type="nvarchar" MaxLength="256" />
+    <Property Name="ProductLine" Type="nvarchar" MaxLength="256" />
+    <Property Name="Style" Type="nvarchar" MaxLength="256" />
+    <Property Name="RiderExperience" Type="nvarchar" MaxLength="1024" />
+    <Property Name="rowguid" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_CustomerAddress_Address_AddressID">
+    <End Role="Address" Type="Self.Address" Multiplicity="1" />
+    <End Role="CustomerAddress" Type="Self.CustomerAddress" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Address">
+        <PropertyRef Name="AddressID" />
+      </Principal>
+      <Dependent Role="CustomerAddress">
+        <PropertyRef Name="AddressID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CustomerAddress_Customer_CustomerID">
+    <End Role="Customer" Type="Self.Customer" Multiplicity="1" />
+    <End Role="CustomerAddress" Type="Self.CustomerAddress" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="CustomerID" />
+      </Principal>
+      <Dependent Role="CustomerAddress">
+        <PropertyRef Name="CustomerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Product_ProductCategory_ProductCategoryID">
+    <End Role="ProductCategory" Type="Self.ProductCategory" Multiplicity="0..1" />
+    <End Role="Product" Type="Self.Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProductCategory">
+        <PropertyRef Name="ProductCategoryID" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="ProductCategoryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Product_ProductModel_ProductModelID">
+    <End Role="ProductModel" Type="Self.ProductModel" Multiplicity="0..1" />
+    <End Role="Product" Type="Self.Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProductModel">
+        <PropertyRef Name="ProductModelID" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="ProductModelID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProductCategory_ProductCategory_ParentProductCategoryID_ProductCategoryID">
+    <End Role="ProductCategory" Type="Self.ProductCategory" Multiplicity="0..1" />
+    <End Role="ProductCategory1" Type="Self.ProductCategory" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProductCategory">
+        <PropertyRef Name="ProductCategoryID" />
+      </Principal>
+      <Dependent Role="ProductCategory1">
+        <PropertyRef Name="ParentProductCategoryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProductModelProductDescription_ProductDescription_ProductDescriptionID">
+    <End Role="ProductDescription" Type="Self.ProductDescription" Multiplicity="1" />
+    <End Role="ProductModelProductDescription" Type="Self.ProductModelProductDescription" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProductDescription">
+        <PropertyRef Name="ProductDescriptionID" />
+      </Principal>
+      <Dependent Role="ProductModelProductDescription">
+        <PropertyRef Name="ProductDescriptionID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProductModelProductDescription_ProductModel_ProductModelID">
+    <End Role="ProductModel" Type="Self.ProductModel" Multiplicity="1" />
+    <End Role="ProductModelProductDescription" Type="Self.ProductModelProductDescription" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProductModel">
+        <PropertyRef Name="ProductModelID" />
+      </Principal>
+      <Dependent Role="ProductModelProductDescription">
+        <PropertyRef Name="ProductModelID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SalesOrderDetail_Product_ProductID">
+    <End Role="Product" Type="Self.Product" Multiplicity="1" />
+    <End Role="SalesOrderDetail" Type="Self.SalesOrderDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product">
+        <PropertyRef Name="ProductID" />
+      </Principal>
+      <Dependent Role="SalesOrderDetail">
+        <PropertyRef Name="ProductID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SalesOrderDetail_SalesOrderHeader_SalesOrderID">
+    <End Role="SalesOrderHeader" Type="Self.SalesOrderHeader" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="SalesOrderDetail" Type="Self.SalesOrderDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SalesOrderHeader">
+        <PropertyRef Name="SalesOrderID" />
+      </Principal>
+      <Dependent Role="SalesOrderDetail">
+        <PropertyRef Name="SalesOrderID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SalesOrderHeader_Address_BillTo_AddressID">
+    <End Role="Address" Type="Self.Address" Multiplicity="0..1" />
+    <End Role="SalesOrderHeader" Type="Self.SalesOrderHeader" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Address">
+        <PropertyRef Name="AddressID" />
+      </Principal>
+      <Dependent Role="SalesOrderHeader">
+        <PropertyRef Name="BillToAddressID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SalesOrderHeader_Address_ShipTo_AddressID">
+    <End Role="Address" Type="Self.Address" Multiplicity="0..1" />
+    <End Role="SalesOrderHeader" Type="Self.SalesOrderHeader" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Address">
+        <PropertyRef Name="AddressID" />
+      </Principal>
+      <Dependent Role="SalesOrderHeader">
+        <PropertyRef Name="ShipToAddressID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SalesOrderHeader_Customer_CustomerID">
+    <End Role="Customer" Type="Self.Customer" Multiplicity="1" />
+    <End Role="SalesOrderHeader" Type="Self.SalesOrderHeader" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="CustomerID" />
+      </Principal>
+      <Dependent Role="SalesOrderHeader">
+        <PropertyRef Name="CustomerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="AdventureWorksLT2019Model1StoreContainer">
+    <EntitySet Name="ErrorLog" EntityType="Self.ErrorLog" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MyEmployees" EntityType="Self.MyEmployees" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Address" EntityType="Self.Address" Schema="SalesLT" store:Type="Tables" />
+    <EntitySet Name="Customer" EntityType="Self.Customer" Schema="SalesLT" store:Type="Tables" />
+    <EntitySet Name="CustomerAddress" EntityType="Self.CustomerAddress" Schema="SalesLT" store:Type="Tables" />
+    <EntitySet Name="PersonAddress" EntityType="Self.PersonAddress" Schema="SalesLT" store:Type="Tables" />
+    <EntitySet Name="Product" EntityType="Self.Product" Schema="SalesLT" store:Type="Tables" />
+    <EntitySet Name="ProductCategory" EntityType="Self.ProductCategory" Schema="SalesLT" store:Type="Tables" />
+    <EntitySet Name="ProductDescription" EntityType="Self.ProductDescription" Schema="SalesLT" store:Type="Tables" />
+    <EntitySet Name="ProductModel" EntityType="Self.ProductModel" Schema="SalesLT" store:Type="Tables" />
+    <EntitySet Name="ProductModelProductDescription" EntityType="Self.ProductModelProductDescription" Schema="SalesLT" store:Type="Tables" />
+    <EntitySet Name="SalesOrderDetail" EntityType="Self.SalesOrderDetail" Schema="SalesLT" store:Type="Tables" />
+    <EntitySet Name="SalesOrderHeader" EntityType="Self.SalesOrderHeader" Schema="SalesLT" store:Type="Tables" />
+    <EntitySet Name="BuildVersion" EntityType="Self.BuildVersion" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [BuildVersion].[SystemInformationID] AS [SystemInformationID], 
+    [BuildVersion].[Database Version] AS [Database Version], 
+    [BuildVersion].[VersionDate] AS [VersionDate], 
+    [BuildVersion].[ModifiedDate] AS [ModifiedDate]
+    FROM [dbo].[BuildVersion] AS [BuildVersion]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Izguba" EntityType="Self.Izguba" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Izguba].[ProductID] AS [ProductID], 
+    [Izguba].[Name] AS [Name], 
+    [Izguba].[StandardCost] AS [StandardCost], 
+    [Izguba].[ListPrice] AS [ListPrice], 
+    [Izguba].[AvgSellingPrice] AS [AvgSellingPrice]
+    FROM [dbo].[Izguba] AS [Izguba]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Nov" EntityType="Self.Nov" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Nov].[CustomerID] AS [CustomerID], 
+    [Nov].[FirstName] AS [FirstName], 
+    [Nov].[LastName] AS [LastName], 
+    [Nov].[AddressLine1] AS [AddressLine1], 
+    [Nov].[City] AS [City]
+    FROM [dbo].[Nov] AS [Nov]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Product1" EntityType="Self.Product1" store:Type="Views" store:Schema="dbo" store:Name="Product">
+      <DefiningQuery>SELECT 
+    [Product1].[ProductID] AS [ProductID], 
+    [Product1].[Name] AS [Name], 
+    [Product1].[ProductNumber] AS [ProductNumber], 
+    [Product1].[Color] AS [Color], 
+    [Product1].[StandardCost] AS [StandardCost], 
+    [Product1].[ListPrice] AS [ListPrice], 
+    [Product1].[Size] AS [Size], 
+    [Product1].[Weight] AS [Weight], 
+    [Product1].[ProductCategoryID] AS [ProductCategoryID], 
+    [Product1].[ProductModelID] AS [ProductModelID], 
+    [Product1].[SellStartDate] AS [SellStartDate], 
+    [Product1].[SellEndDate] AS [SellEndDate], 
+    [Product1].[DiscontinuedDate] AS [DiscontinuedDate], 
+    [Product1].[ThumbNailPhoto] AS [ThumbNailPhoto], 
+    [Product1].[ThumbnailPhotoFileName] AS [ThumbnailPhotoFileName], 
+    [Product1].[rowguid] AS [rowguid], 
+    [Product1].[ModifiedDate] AS [ModifiedDate]
+    FROM [dbo].[Product] AS [Product1]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Produkt" EntityType="Self.Produkt" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Produkt].[ProductID] AS [ProductID], 
+    [Produkt].[Name] AS [Name], 
+    [Produkt].[ProductNumber] AS [ProductNumber], 
+    [Produkt].[Color] AS [Color], 
+    [Produkt].[StandardCost] AS [StandardCost], 
+    [Produkt].[ListPrice] AS [ListPrice], 
+    [Produkt].[Size] AS [Size], 
+    [Produkt].[Weight] AS [Weight], 
+    [Produkt].[ProductCategoryID] AS [ProductCategoryID], 
+    [Produkt].[ProductModelID] AS [ProductModelID], 
+    [Produkt].[SellStartDate] AS [SellStartDate], 
+    [Produkt].[SellEndDate] AS [SellEndDate], 
+    [Produkt].[DiscontinuedDate] AS [DiscontinuedDate], 
+    [Produkt].[ThumbNailPhoto] AS [ThumbNailPhoto], 
+    [Produkt].[ThumbnailPhotoFileName] AS [ThumbnailPhotoFileName], 
+    [Produkt].[rowguid] AS [rowguid], 
+    [Produkt].[ModifiedDate] AS [ModifiedDate]
+    FROM [dbo].[Produkt] AS [Produkt]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Produkti" EntityType="Self.Produkti" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Produkti].[ProductID] AS [ProductID], 
+    [Produkti].[Name] AS [Name], 
+    [Produkti].[ProductNumber] AS [ProductNumber], 
+    [Produkti].[Color] AS [Color], 
+    [Produkti].[StandardCost] AS [StandardCost], 
+    [Produkti].[ListPrice] AS [ListPrice], 
+    [Produkti].[Size] AS [Size], 
+    [Produkti].[Weight] AS [Weight], 
+    [Produkti].[ProductCategoryID] AS [ProductCategoryID], 
+    [Produkti].[ProductModelID] AS [ProductModelID], 
+    [Produkti].[SellStartDate] AS [SellStartDate], 
+    [Produkti].[SellEndDate] AS [SellEndDate], 
+    [Produkti].[DiscontinuedDate] AS [DiscontinuedDate], 
+    [Produkti].[ThumbNailPhoto] AS [ThumbNailPhoto], 
+    [Produkti].[ThumbnailPhotoFileName] AS [ThumbnailPhotoFileName], 
+    [Produkti].[rowguid] AS [rowguid], 
+    [Produkti].[ModifiedDate] AS [ModifiedDate]
+    FROM [dbo].[Produkti] AS [Produkti]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Produktii" EntityType="Self.Produktii" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Produktii].[ProductID] AS [ProductID], 
+    [Produktii].[Name] AS [Name], 
+    [Produktii].[ProductNumber] AS [ProductNumber], 
+    [Produktii].[Color] AS [Color], 
+    [Produktii].[StandardCost] AS [StandardCost], 
+    [Produktii].[ListPrice] AS [ListPrice], 
+    [Produktii].[Size] AS [Size], 
+    [Produktii].[Weight] AS [Weight], 
+    [Produktii].[ProductCategoryID] AS [ProductCategoryID], 
+    [Produktii].[ProductModelID] AS [ProductModelID], 
+    [Produktii].[SellStartDate] AS [SellStartDate], 
+    [Produktii].[SellEndDate] AS [SellEndDate], 
+    [Produktii].[DiscontinuedDate] AS [DiscontinuedDate], 
+    [Produktii].[ThumbNailPhoto] AS [ThumbNailPhoto], 
+    [Produktii].[ThumbnailPhotoFileName] AS [ThumbnailPhotoFileName], 
+    [Produktii].[rowguid] AS [rowguid], 
+    [Produktii].[ModifiedDate] AS [ModifiedDate]
+    FROM [dbo].[Produktii] AS [Produktii]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Produktiii" EntityType="Self.Produktiii" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Produktiii].[ProductID] AS [ProductID], 
+    [Produktiii].[Name] AS [Name], 
+    [Produktiii].[ProductNumber] AS [ProductNumber], 
+    [Produktiii].[Color] AS [Color], 
+    [Produktiii].[StandardCost] AS [StandardCost], 
+    [Produktiii].[ListPrice] AS [ListPrice], 
+    [Produktiii].[Size] AS [Size], 
+    [Produktiii].[Weight] AS [Weight], 
+    [Produktiii].[ProductCategoryID] AS [ProductCategoryID], 
+    [Produktiii].[ProductModelID] AS [ProductModelID], 
+    [Produktiii].[SellStartDate] AS [SellStartDate], 
+    [Produktiii].[SellEndDate] AS [SellEndDate], 
+    [Produktiii].[DiscontinuedDate] AS [DiscontinuedDate], 
+    [Produktiii].[ThumbNailPhoto] AS [ThumbNailPhoto], 
+    [Produktiii].[ThumbnailPhotoFileName] AS [ThumbnailPhotoFileName], 
+    [Produktiii].[rowguid] AS [rowguid], 
+    [Produktiii].[ModifiedDate] AS [ModifiedDate]
+    FROM [dbo].[Produktiii] AS [Produktiii]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="View_1" EntityType="Self.View_1" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [View_1].[ModifiedDate] AS [ModifiedDate], 
+    [View_1].[MiddleName] AS [MiddleName], 
+    [View_1].[SubTotal] AS [SubTotal]
+    FROM [dbo].[View_1] AS [View_1]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vGetAllCategories" EntityType="Self.vGetAllCategories" store:Type="Views" store:Schema="SalesLT">
+      <DefiningQuery>SELECT 
+    [vGetAllCategories].[ParentProductCategoryName] AS [ParentProductCategoryName], 
+    [vGetAllCategories].[ProductCategoryName] AS [ProductCategoryName], 
+    [vGetAllCategories].[ProductCategoryID] AS [ProductCategoryID]
+    FROM [SalesLT].[vGetAllCategories] AS [vGetAllCategories]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vProductAndDescription" EntityType="Self.vProductAndDescription" store:Type="Views" store:Schema="SalesLT">
+      <DefiningQuery>SELECT 
+    [vProductAndDescription].[ProductID] AS [ProductID], 
+    [vProductAndDescription].[Name] AS [Name], 
+    [vProductAndDescription].[ProductModel] AS [ProductModel], 
+    [vProductAndDescription].[Culture] AS [Culture], 
+    [vProductAndDescription].[Description] AS [Description]
+    FROM [SalesLT].[vProductAndDescription] AS [vProductAndDescription]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vProductModelCatalogDescription" EntityType="Self.vProductModelCatalogDescription" store:Type="Views" store:Schema="SalesLT">
+      <DefiningQuery>SELECT 
+    [vProductModelCatalogDescription].[ProductModelID] AS [ProductModelID], 
+    [vProductModelCatalogDescription].[Name] AS [Name], 
+    [vProductModelCatalogDescription].[Summary] AS [Summary], 
+    [vProductModelCatalogDescription].[Manufacturer] AS [Manufacturer], 
+    [vProductModelCatalogDescription].[Copyright] AS [Copyright], 
+    [vProductModelCatalogDescription].[ProductURL] AS [ProductURL], 
+    [vProductModelCatalogDescription].[WarrantyPeriod] AS [WarrantyPeriod], 
+    [vProductModelCatalogDescription].[WarrantyDescription] AS [WarrantyDescription], 
+    [vProductModelCatalogDescription].[NoOfYears] AS [NoOfYears], 
+    [vProductModelCatalogDescription].[MaintenanceDescription] AS [MaintenanceDescription], 
+    [vProductModelCatalogDescription].[Wheel] AS [Wheel], 
+    [vProductModelCatalogDescription].[Saddle] AS [Saddle], 
+    [vProductModelCatalogDescription].[Pedal] AS [Pedal], 
+    [vProductModelCatalogDescription].[BikeFrame] AS [BikeFrame], 
+    [vProductModelCatalogDescription].[Crankset] AS [Crankset], 
+    [vProductModelCatalogDescription].[PictureAngle] AS [PictureAngle], 
+    [vProductModelCatalogDescription].[PictureSize] AS [PictureSize], 
+    [vProductModelCatalogDescription].[ProductPhotoID] AS [ProductPhotoID], 
+    [vProductModelCatalogDescription].[Material] AS [Material], 
+    [vProductModelCatalogDescription].[Color] AS [Color], 
+    [vProductModelCatalogDescription].[ProductLine] AS [ProductLine], 
+    [vProductModelCatalogDescription].[Style] AS [Style], 
+    [vProductModelCatalogDescription].[RiderExperience] AS [RiderExperience], 
+    [vProductModelCatalogDescription].[rowguid] AS [rowguid], 
+    [vProductModelCatalogDescription].[ModifiedDate] AS [ModifiedDate]
+    FROM [SalesLT].[vProductModelCatalogDescription] AS [vProductModelCatalogDescription]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_CustomerAddress_Address_AddressID" Association="Self.FK_CustomerAddress_Address_AddressID">
+      <End Role="Address" EntitySet="Address" />
+      <End Role="CustomerAddress" EntitySet="CustomerAddress" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CustomerAddress_Customer_CustomerID" Association="Self.FK_CustomerAddress_Customer_CustomerID">
+      <End Role="Customer" EntitySet="Customer" />
+      <End Role="CustomerAddress" EntitySet="CustomerAddress" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Product_ProductCategory_ProductCategoryID" Association="Self.FK_Product_ProductCategory_ProductCategoryID">
+      <End Role="ProductCategory" EntitySet="ProductCategory" />
+      <End Role="Product" EntitySet="Product" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Product_ProductModel_ProductModelID" Association="Self.FK_Product_ProductModel_ProductModelID">
+      <End Role="ProductModel" EntitySet="ProductModel" />
+      <End Role="Product" EntitySet="Product" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProductCategory_ProductCategory_ParentProductCategoryID_ProductCategoryID" Association="Self.FK_ProductCategory_ProductCategory_ParentProductCategoryID_ProductCategoryID">
+      <End Role="ProductCategory" EntitySet="ProductCategory" />
+      <End Role="ProductCategory1" EntitySet="ProductCategory" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProductModelProductDescription_ProductDescription_ProductDescriptionID" Association="Self.FK_ProductModelProductDescription_ProductDescription_ProductDescriptionID">
+      <End Role="ProductDescription" EntitySet="ProductDescription" />
+      <End Role="ProductModelProductDescription" EntitySet="ProductModelProductDescription" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProductModelProductDescription_ProductModel_ProductModelID" Association="Self.FK_ProductModelProductDescription_ProductModel_ProductModelID">
+      <End Role="ProductModel" EntitySet="ProductModel" />
+      <End Role="ProductModelProductDescription" EntitySet="ProductModelProductDescription" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SalesOrderDetail_Product_ProductID" Association="Self.FK_SalesOrderDetail_Product_ProductID">
+      <End Role="Product" EntitySet="Product" />
+      <End Role="SalesOrderDetail" EntitySet="SalesOrderDetail" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SalesOrderDetail_SalesOrderHeader_SalesOrderID" Association="Self.FK_SalesOrderDetail_SalesOrderHeader_SalesOrderID">
+      <End Role="SalesOrderHeader" EntitySet="SalesOrderHeader" />
+      <End Role="SalesOrderDetail" EntitySet="SalesOrderDetail" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SalesOrderHeader_Address_BillTo_AddressID" Association="Self.FK_SalesOrderHeader_Address_BillTo_AddressID">
+      <End Role="Address" EntitySet="Address" />
+      <End Role="SalesOrderHeader" EntitySet="SalesOrderHeader" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SalesOrderHeader_Address_ShipTo_AddressID" Association="Self.FK_SalesOrderHeader_Address_ShipTo_AddressID">
+      <End Role="Address" EntitySet="Address" />
+      <End Role="SalesOrderHeader" EntitySet="SalesOrderHeader" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SalesOrderHeader_Customer_CustomerID" Association="Self.FK_SalesOrderHeader_Customer_CustomerID">
+      <End Role="Customer" EntitySet="Customer" />
+      <End Role="SalesOrderHeader" EntitySet="SalesOrderHeader" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

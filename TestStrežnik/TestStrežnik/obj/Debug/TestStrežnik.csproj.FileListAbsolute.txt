@@ -1,0 +1,13 @@
+D:\Pro2\TestStrežnik\TestStrežnik\bin\Debug\TestStrežnik.exe.config
+D:\Pro2\TestStrežnik\TestStrežnik\bin\Debug\TestStrežnik.exe
+D:\Pro2\TestStrežnik\TestStrežnik\bin\Debug\TestStrežnik.pdb
+D:\Pro2\TestStrežnik\TestStrežnik\bin\Debug\EntityFramework.dll
+D:\Pro2\TestStrežnik\TestStrežnik\bin\Debug\EntityFramework.SqlServer.dll
+D:\Pro2\TestStrežnik\TestStrežnik\bin\Debug\EntityFramework.xml
+D:\Pro2\TestStrežnik\TestStrežnik\bin\Debug\EntityFramework.SqlServer.xml
+D:\Pro2\TestStrežnik\TestStrežnik\obj\Debug\TestStrežnik.csproj.AssemblyReference.cache
+D:\Pro2\TestStrežnik\TestStrežnik\obj\Debug\TestStrežnik.csproj.SuggestedBindingRedirects.cache
+D:\Pro2\TestStrežnik\TestStrežnik\obj\Debug\TestStrežnik.csproj.CoreCompileInputs.cache
+D:\Pro2\TestStrežnik\TestStrežnik\obj\Debug\TestStrežnik.csproj.CopyComplete
+D:\Pro2\TestStrežnik\TestStrežnik\obj\Debug\TestStrežnik.exe
+D:\Pro2\TestStrežnik\TestStrežnik\obj\Debug\TestStrežnik.pdb
