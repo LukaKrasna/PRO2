@@ -1,0 +1,29 @@
+﻿<Window x:Class="Energija__baza_.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Energija__baza_"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
+    <Window.Resources>
+        <CollectionViewSource x:Key="cvs"/>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!--naslov-->
+        </Grid.RowDefinitions>
+        <TextBlock Text="Pregled porave po urah" FontSize="36"/>
+        <ListView Name="lstPregled" ItemsSource="{Binding Source={StaticResource cvs}}" Margin="5,53,5,-359" FontSize="10">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding Ura}" Margin="5"/>
+                        <TextBlock Text="{Binding Moč, StringFormat=\{0:N2\}}" Margin="5"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+</Window>

@@ -1,0 +1,22 @@
+D:\Pro2\Energija (baza)\Energija (baza)\bin\Debug\Energija (baza).exe.config
+D:\Pro2\Energija (baza)\Energija (baza)\bin\Debug\Energija (baza).exe
+D:\Pro2\Energija (baza)\Energija (baza)\bin\Debug\Energija (baza).pdb
+D:\Pro2\Energija (baza)\Energija (baza)\bin\Debug\EntityFramework.dll
+D:\Pro2\Energija (baza)\Energija (baza)\bin\Debug\EntityFramework.SqlServer.dll
+D:\Pro2\Energija (baza)\Energija (baza)\bin\Debug\EntityFramework.xml
+D:\Pro2\Energija (baza)\Energija (baza)\bin\Debug\EntityFramework.SqlServer.xml
+D:\Pro2\Energija (baza)\Energija (baza)\obj\Debug\Energija (baza).csproj.AssemblyReference.cache
+D:\Pro2\Energija (baza)\Energija (baza)\obj\Debug\Energija (baza).csproj.SuggestedBindingRedirects.cache
+D:\Pro2\Energija (baza)\Energija (baza)\obj\Debug\MainWindow.g.cs
+D:\Pro2\Energija (baza)\Energija (baza)\obj\Debug\App.g.cs
+D:\Pro2\Energija (baza)\Energija (baza)\obj\Debug\Energija (baza)_Content.g.cs
+D:\Pro2\Energija (baza)\Energija (baza)\obj\Debug\Energija (baza)_MarkupCompile.cache
+D:\Pro2\Energija (baza)\Energija (baza)\obj\Debug\Energija (baza)_MarkupCompile.lref
+D:\Pro2\Energija (baza)\Energija (baza)\obj\Debug\MainWindow.baml
+D:\Pro2\Energija (baza)\Energija (baza)\obj\Debug\Energija (baza).g.resources
+D:\Pro2\Energija (baza)\Energija (baza)\obj\Debug\Energija__baza_.Properties.Resources.resources
+D:\Pro2\Energija (baza)\Energija (baza)\obj\Debug\Energija (baza).csproj.GenerateResource.cache
+D:\Pro2\Energija (baza)\Energija (baza)\obj\Debug\Energija (baza).csproj.CoreCompileInputs.cache
+D:\Pro2\Energija (baza)\Energija (baza)\obj\Debug\Energija (baza).csproj.CopyComplete
+D:\Pro2\Energija (baza)\Energija (baza)\obj\Debug\Energija (baza).exe
+D:\Pro2\Energija (baza)\Energija (baza)\obj\Debug\Energija (baza).pdb
