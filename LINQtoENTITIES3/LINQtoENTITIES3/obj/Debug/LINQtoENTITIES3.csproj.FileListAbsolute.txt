@@ -1,0 +1,13 @@
+D:\Pro2\LINQtoENTITIES3\LINQtoENTITIES3\bin\Debug\LINQtoENTITIES3.exe.config
+D:\Pro2\LINQtoENTITIES3\LINQtoENTITIES3\bin\Debug\LINQtoENTITIES3.exe
+D:\Pro2\LINQtoENTITIES3\LINQtoENTITIES3\bin\Debug\LINQtoENTITIES3.pdb
+D:\Pro2\LINQtoENTITIES3\LINQtoENTITIES3\bin\Debug\EntityFramework.dll
+D:\Pro2\LINQtoENTITIES3\LINQtoENTITIES3\bin\Debug\EntityFramework.SqlServer.dll
+D:\Pro2\LINQtoENTITIES3\LINQtoENTITIES3\bin\Debug\EntityFramework.xml
+D:\Pro2\LINQtoENTITIES3\LINQtoENTITIES3\bin\Debug\EntityFramework.SqlServer.xml
+D:\Pro2\LINQtoENTITIES3\LINQtoENTITIES3\obj\Debug\LINQtoENTITIES3.csproj.AssemblyReference.cache
+D:\Pro2\LINQtoENTITIES3\LINQtoENTITIES3\obj\Debug\LINQtoENTITIES3.csproj.SuggestedBindingRedirects.cache
+D:\Pro2\LINQtoENTITIES3\LINQtoENTITIES3\obj\Debug\LINQtoENTITIES3.csproj.CoreCompileInputs.cache
+D:\Pro2\LINQtoENTITIES3\LINQtoENTITIES3\obj\Debug\LINQtoENTITIES3.csproj.CopyComplete
+D:\Pro2\LINQtoENTITIES3\LINQtoENTITIES3\obj\Debug\LINQtoENTITIES3.exe
+D:\Pro2\LINQtoENTITIES3\LINQtoENTITIES3\obj\Debug\LINQtoENTITIES3.pdb
